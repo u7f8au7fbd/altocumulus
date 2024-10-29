@@ -1,0 +1,2521 @@
+<!DOCTYPE html>
+<!-- saved from url=(0020)https://flutter.dev/ -->
+<html lang="en" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="origin-trial"
+    content="A/kargTFyk8MR5ueravczef/wIlTkbVk1qXQesp39nV+xNECPdLBVeYffxrM8TmZT6RArWGQVCJ0LRivD7glcAUAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZzIiLCJleHBpcnkiOjE3NDIzNDIzOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+
+  <style type="text/css">
+    :host,
+    :root {
+      --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+      --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+      --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+      --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+      --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+      --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+      --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+      --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+      --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"
+    }
+
+    svg:not(:host).svg-inline--fa,
+    svg:not(:root).svg-inline--fa {
+      overflow: visible;
+      box-sizing: content-box
+    }
+
+    .svg-inline--fa {
+      display: var(--fa-display, inline-block);
+      height: 1em;
+      overflow: visible;
+      vertical-align: -.125em
+    }
+
+    .svg-inline--fa.fa-2xs {
+      vertical-align: .1em
+    }
+
+    .svg-inline--fa.fa-xs {
+      vertical-align: 0
+    }
+
+    .svg-inline--fa.fa-sm {
+      vertical-align: -.0714285705em
+    }
+
+    .svg-inline--fa.fa-lg {
+      vertical-align: -.2em
+    }
+
+    .svg-inline--fa.fa-xl {
+      vertical-align: -.25em
+    }
+
+    .svg-inline--fa.fa-2xl {
+      vertical-align: -.3125em
+    }
+
+    .svg-inline--fa.fa-pull-left {
+      margin-right: var(--fa-pull-margin, .3em);
+      width: auto
+    }
+
+    .svg-inline--fa.fa-pull-right {
+      margin-left: var(--fa-pull-margin, .3em);
+      width: auto
+    }
+
+    .svg-inline--fa.fa-li {
+      width: var(--fa-li-width, 2em);
+      top: .25em
+    }
+
+    .svg-inline--fa.fa-fw {
+      width: var(--fa-fw-width, 1.25em)
+    }
+
+    .fa-layers svg.svg-inline--fa {
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0
+    }
+
+    .fa-layers-counter,
+    .fa-layers-text {
+      display: inline-block;
+      position: absolute;
+      text-align: center
+    }
+
+    .fa-layers {
+      display: inline-block;
+      height: 1em;
+      position: relative;
+      text-align: center;
+      vertical-align: -.125em;
+      width: 1em
+    }
+
+    .fa-layers svg.svg-inline--fa {
+      -webkit-transform-origin: center center;
+      transform-origin: center center
+    }
+
+    .fa-layers-text {
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-transform-origin: center center;
+      transform-origin: center center
+    }
+
+    .fa-layers-counter {
+      background-color: var(--fa-counter-background-color, #ff253a);
+      border-radius: var(--fa-counter-border-radius, 1em);
+      box-sizing: border-box;
+      color: var(--fa-inverse, #fff);
+      line-height: var(--fa-counter-line-height, 1);
+      max-width: var(--fa-counter-max-width, 5em);
+      min-width: var(--fa-counter-min-width, 1.5em);
+      overflow: hidden;
+      padding: var(--fa-counter-padding, .25em .5em);
+      right: var(--fa-right, 0);
+      text-overflow: ellipsis;
+      top: var(--fa-top, 0);
+      -webkit-transform: scale(var(--fa-counter-scale, .25));
+      transform: scale(var(--fa-counter-scale, .25));
+      -webkit-transform-origin: top right;
+      transform-origin: top right
+    }
+
+    .fa-layers-bottom-right {
+      bottom: var(--fa-bottom, 0);
+      right: var(--fa-right, 0);
+      top: auto;
+      -webkit-transform: scale(var(--fa-layers-scale, .25));
+      transform: scale(var(--fa-layers-scale, .25));
+      -webkit-transform-origin: bottom right;
+      transform-origin: bottom right
+    }
+
+    .fa-layers-bottom-left {
+      bottom: var(--fa-bottom, 0);
+      left: var(--fa-left, 0);
+      right: auto;
+      top: auto;
+      -webkit-transform: scale(var(--fa-layers-scale, .25));
+      transform: scale(var(--fa-layers-scale, .25));
+      -webkit-transform-origin: bottom left;
+      transform-origin: bottom left
+    }
+
+    .fa-layers-top-right {
+      top: var(--fa-top, 0);
+      right: var(--fa-right, 0);
+      -webkit-transform: scale(var(--fa-layers-scale, .25));
+      transform: scale(var(--fa-layers-scale, .25));
+      -webkit-transform-origin: top right;
+      transform-origin: top right
+    }
+
+    .fa-layers-top-left {
+      left: var(--fa-left, 0);
+      right: auto;
+      top: var(--fa-top, 0);
+      -webkit-transform: scale(var(--fa-layers-scale, .25));
+      transform: scale(var(--fa-layers-scale, .25));
+      -webkit-transform-origin: top left;
+      transform-origin: top left
+    }
+
+    .fa-1x {
+      font-size: 1em
+    }
+
+    .fa-2x {
+      font-size: 2em
+    }
+
+    .fa-3x {
+      font-size: 3em
+    }
+
+    .fa-4x {
+      font-size: 4em
+    }
+
+    .fa-5x {
+      font-size: 5em
+    }
+
+    .fa-6x {
+      font-size: 6em
+    }
+
+    .fa-7x {
+      font-size: 7em
+    }
+
+    .fa-8x {
+      font-size: 8em
+    }
+
+    .fa-9x {
+      font-size: 9em
+    }
+
+    .fa-10x {
+      font-size: 10em
+    }
+
+    .fa-2xs {
+      font-size: .625em;
+      line-height: .1em;
+      vertical-align: .225em
+    }
+
+    .fa-xs {
+      font-size: .75em;
+      line-height: .0833333337em;
+      vertical-align: .125em
+    }
+
+    .fa-sm {
+      font-size: .875em;
+      line-height: .0714285718em;
+      vertical-align: .0535714295em
+    }
+
+    .fa-lg {
+      font-size: 1.25em;
+      line-height: .05em;
+      vertical-align: -.075em
+    }
+
+    .fa-xl {
+      font-size: 1.5em;
+      line-height: .0416666682em;
+      vertical-align: -.125em
+    }
+
+    .fa-2xl {
+      font-size: 2em;
+      line-height: .03125em;
+      vertical-align: -.1875em
+    }
+
+    .fa-fw {
+      text-align: center;
+      width: 1.25em
+    }
+
+    .fa-ul {
+      list-style-type: none;
+      margin-left: var(--fa-li-margin, 2.5em);
+      padding-left: 0
+    }
+
+    .fa-ul>li {
+      position: relative
+    }
+
+    .fa-li {
+      left: calc(var(--fa-li-width, 2em) * -1);
+      position: absolute;
+      text-align: center;
+      width: var(--fa-li-width, 2em);
+      line-height: inherit
+    }
+
+    .fa-border {
+      border-color: var(--fa-border-color, #eee);
+      border-radius: var(--fa-border-radius, .1em);
+      border-style: var(--fa-border-style, solid);
+      border-width: var(--fa-border-width, .08em);
+      padding: var(--fa-border-padding, .2em .25em .15em)
+    }
+
+    .fa-pull-left {
+      float: left;
+      margin-right: var(--fa-pull-margin, .3em)
+    }
+
+    .fa-pull-right {
+      float: right;
+      margin-left: var(--fa-pull-margin, .3em)
+    }
+
+    .fa-beat {
+      -webkit-animation-name: fa-beat;
+      animation-name: fa-beat;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      animation-timing-function: var(--fa-animation-timing, ease-in-out)
+    }
+
+    .fa-bounce {
+      -webkit-animation-name: fa-bounce;
+      animation-name: fa-bounce;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.28, .84, .42, 1));
+      animation-timing-function: var(--fa-animation-timing, cubic-bezier(.28, .84, .42, 1))
+    }
+
+    .fa-fade {
+      -webkit-animation-name: fa-fade;
+      animation-name: fa-fade;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
+      animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1))
+    }
+
+    .fa-beat-fade {
+      -webkit-animation-name: fa-beat-fade;
+      animation-name: fa-beat-fade;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1));
+      animation-timing-function: var(--fa-animation-timing, cubic-bezier(.4, 0, .6, 1))
+    }
+
+    .fa-flip {
+      -webkit-animation-name: fa-flip;
+      animation-name: fa-flip;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+      animation-timing-function: var(--fa-animation-timing, ease-in-out)
+    }
+
+    .fa-shake {
+      -webkit-animation-name: fa-shake;
+      animation-name: fa-shake;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+      animation-timing-function: var(--fa-animation-timing, linear)
+    }
+
+    .fa-spin {
+      -webkit-animation-name: fa-spin;
+      animation-name: fa-spin;
+      -webkit-animation-delay: var(--fa-animation-delay, 0s);
+      animation-delay: var(--fa-animation-delay, 0s);
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 2s);
+      animation-duration: var(--fa-animation-duration, 2s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+      animation-timing-function: var(--fa-animation-timing, linear)
+    }
+
+    .fa-spin-reverse {
+      --fa-animation-direction: reverse
+    }
+
+    .fa-pulse,
+    .fa-spin-pulse {
+      -webkit-animation-name: fa-spin;
+      animation-name: fa-spin;
+      -webkit-animation-direction: var(--fa-animation-direction, normal);
+      animation-direction: var(--fa-animation-direction, normal);
+      -webkit-animation-duration: var(--fa-animation-duration, 1s);
+      animation-duration: var(--fa-animation-duration, 1s);
+      -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+      -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+      animation-timing-function: var(--fa-animation-timing, steps(8))
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+
+      .fa-beat,
+      .fa-beat-fade,
+      .fa-bounce,
+      .fa-fade,
+      .fa-flip,
+      .fa-pulse,
+      .fa-shake,
+      .fa-spin,
+      .fa-spin-pulse {
+        -webkit-animation-delay: -1ms;
+        animation-delay: -1ms;
+        -webkit-animation-duration: 1ms;
+        animation-duration: 1ms;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s;
+        -webkit-transition-duration: 0s;
+        transition-duration: 0s
+      }
+    }
+
+    @-webkit-keyframes fa-beat {
+
+      0%,
+      90% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+      }
+
+      45% {
+        -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+        transform: scale(var(--fa-beat-scale, 1.25))
+      }
+    }
+
+    @keyframes fa-beat {
+
+      0%,
+      90% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+      }
+
+      45% {
+        -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+        transform: scale(var(--fa-beat-scale, 1.25))
+      }
+    }
+
+    @-webkit-keyframes fa-bounce {
+      0% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+
+      10% {
+        -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0);
+        transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0)
+      }
+
+      30% {
+        -webkit-transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em));
+        transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em))
+      }
+
+      50% {
+        -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0);
+        transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0)
+      }
+
+      57% {
+        -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em));
+        transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em))
+      }
+
+      64% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+    }
+
+    @keyframes fa-bounce {
+      0% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+
+      10% {
+        -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0);
+        transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, .9)) translateY(0)
+      }
+
+      30% {
+        -webkit-transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em));
+        transform: scale(var(--fa-bounce-jump-scale-x, .9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -.5em))
+      }
+
+      50% {
+        -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0);
+        transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, .95)) translateY(0)
+      }
+
+      57% {
+        -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em));
+        transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -.125em))
+      }
+
+      64% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+
+      100% {
+        -webkit-transform: scale(1, 1) translateY(0);
+        transform: scale(1, 1) translateY(0)
+      }
+    }
+
+    @-webkit-keyframes fa-fade {
+      50% {
+        opacity: var(--fa-fade-opacity, .4)
+      }
+    }
+
+    @keyframes fa-fade {
+      50% {
+        opacity: var(--fa-fade-opacity, .4)
+      }
+    }
+
+    @-webkit-keyframes fa-beat-fade {
+
+      0%,
+      100% {
+        opacity: var(--fa-beat-fade-opacity, .4);
+        -webkit-transform: scale(1);
+        transform: scale(1)
+      }
+
+      50% {
+        opacity: 1;
+        -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+        transform: scale(var(--fa-beat-fade-scale, 1.125))
+      }
+    }
+
+    @keyframes fa-beat-fade {
+
+      0%,
+      100% {
+        opacity: var(--fa-beat-fade-opacity, .4);
+        -webkit-transform: scale(1);
+        transform: scale(1)
+      }
+
+      50% {
+        opacity: 1;
+        -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+        transform: scale(var(--fa-beat-fade-scale, 1.125))
+      }
+    }
+
+    @-webkit-keyframes fa-flip {
+      50% {
+        -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+        transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg))
+      }
+    }
+
+    @keyframes fa-flip {
+      50% {
+        -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+        transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg))
+      }
+    }
+
+    @-webkit-keyframes fa-shake {
+      0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+      }
+
+      4% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+      }
+
+      24%,
+      8% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+      }
+
+      12%,
+      28% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+      }
+
+      16% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+      }
+
+      20% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+      }
+
+      32% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+      }
+
+      36% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+      }
+
+      100%,
+      40% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+      }
+    }
+
+    @keyframes fa-shake {
+      0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+      }
+
+      4% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+      }
+
+      24%,
+      8% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+      }
+
+      12%,
+      28% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+      }
+
+      16% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+      }
+
+      20% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+      }
+
+      32% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+      }
+
+      36% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+      }
+
+      100%,
+      40% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+      }
+    }
+
+    @-webkit-keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+      }
+    }
+
+    @keyframes fa-spin {
+      0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+      }
+    }
+
+    .fa-rotate-90 {
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg)
+    }
+
+    .fa-rotate-180 {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg)
+    }
+
+    .fa-rotate-270 {
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg)
+    }
+
+    .fa-flip-horizontal {
+      -webkit-transform: scale(-1, 1);
+      transform: scale(-1, 1)
+    }
+
+    .fa-flip-vertical {
+      -webkit-transform: scale(1, -1);
+      transform: scale(1, -1)
+    }
+
+    .fa-flip-both,
+    .fa-flip-horizontal.fa-flip-vertical {
+      -webkit-transform: scale(-1, -1);
+      transform: scale(-1, -1)
+    }
+
+    .fa-rotate-by {
+      -webkit-transform: rotate(var(--fa-rotate-angle, none));
+      transform: rotate(var(--fa-rotate-angle, none))
+    }
+
+    .fa-stack {
+      display: inline-block;
+      vertical-align: middle;
+      height: 2em;
+      position: relative;
+      width: 2.5em
+    }
+
+    .fa-stack-1x,
+    .fa-stack-2x {
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: var(--fa-stack-z-index, auto)
+    }
+
+    .svg-inline--fa.fa-stack-1x {
+      height: 1em;
+      width: 1.25em
+    }
+
+    .svg-inline--fa.fa-stack-2x {
+      height: 2em;
+      width: 2.5em
+    }
+
+    .fa-inverse {
+      color: var(--fa-inverse, #fff)
+    }
+
+    .fa-sr-only,
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0
+    }
+
+    .fa-sr-only-focusable:not(:focus),
+    .sr-only-focusable:not(:focus) {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0
+    }
+
+    .svg-inline--fa .fa-primary {
+      fill: var(--fa-primary-color, currentColor);
+      opacity: var(--fa-primary-opacity, 1)
+    }
+
+    .svg-inline--fa .fa-secondary {
+      fill: var(--fa-secondary-color, currentColor);
+      opacity: var(--fa-secondary-opacity, .4)
+    }
+
+    .svg-inline--fa.fa-swap-opacity .fa-primary {
+      opacity: var(--fa-secondary-opacity, .4)
+    }
+
+    .svg-inline--fa.fa-swap-opacity .fa-secondary {
+      opacity: var(--fa-primary-opacity, 1)
+    }
+
+    .svg-inline--fa mask .fa-primary,
+    .svg-inline--fa mask .fa-secondary {
+      fill: #000
+    }
+
+    .fa-duotone.fa-inverse,
+    .fad.fa-inverse {
+      color: var(--fa-inverse, #fff)
+    }
+  </style>
+  <link rel="icon" href="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png">
+  <link rel="apple-touch-icon" href="https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png">
+
+  <title>
+
+
+
+
+
+
+    Flutter - Build apps for any screen
+
+  </title>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta name="description"
+    content="Flutter transforms the entire app development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@flutterdev">
+
+  <meta property="og:title" content="Flutter - Build apps for any screen">
+  <meta property="og:url" content="//flutter.dev/">
+  <meta property="og:description"
+    content="Flutter transforms the entire app development process. Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase.">
+  <meta property="og:image" content="https://storage.googleapis.com/cms-storage-bucket/70760bf1e88b184bb1bc.png">
+
+
+  <meta name="google-site-verification" content="HFqxhSbf9YA_0rBglNLzDiWnrHiK_w4cqDh2YD2GEY4">
+  <script type="text/javascript" async=""
+    src="./Flutter - Build apps for any screen_files/analytics.js.ダウンロード"></script>
+  <script type="text/javascript" async="" src="./Flutter - Build apps for any screen_files/js"></script>
+  <script type="text/javascript" async="" charset="utf-8"
+    src="./Flutter - Build apps for any screen_files/recaptcha__ja.js.ダウンロード" crossorigin="anonymous"
+    integrity="sha384-iRa+TnHZU/rJq27GRjIhnqG+OqcxGxbVUCpqI26Z6a2w4ezXrqzL6DdGcTG/TsBW"></script>
+  <script async="" src="./Flutter - Build apps for any screen_files/analytics.js.ダウンロード"></script>
+  <script async="" src="./Flutter - Build apps for any screen_files/gtm.js.ダウンロード"></script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-ND4LWWZ');
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-67589403-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+  <link href="./Flutter - Build apps for any screen_files/css" rel="stylesheet" media="all">
+  <link href="./Flutter - Build apps for any screen_files/css(1)" rel="stylesheet" media="all">
+  <link href="./Flutter - Build apps for any screen_files/css2" rel="stylesheet">
+  <link href="./Flutter - Build apps for any screen_files/cookienotificationbar.min.css" rel="stylesheet">
+
+
+  <link href="./Flutter - Build apps for any screen_files/main.4eb7e2200093cbeecb66.css" rel="stylesheet" media="all">
+
+
+
+
+  <script async="" defer="" src="./Flutter - Build apps for any screen_files/all.js.ダウンロード"
+    data-auto-replace-svg="nest"></script>
+</head>
+
+<body class="home" x-data="ScrollSpy" x-on:scroll.window="onScroll"
+  x-bind:class="{ &#39;in-content&#39;: $store.spy.inContent }">
+  <div class="glue-cookie-notification-bar" id="glue-cookie-notification-bar-1"
+    aria-labelledby="glue-cookie-notification-bar-1-label" role="region" data-nosnippet="" tabindex="-1"
+    style="font-size: 1rem;">
+    <p class="glue-cookie-notification-bar__text"><span id="glue-cookie-notification-bar-1-label">flutter.dev uses
+        cookies to deliver and enhance the quality of its services and to analyze traffic. If you agree, cookies are
+        also used to serve advertising and to personalize the content and advertisements that you see. </span><a
+        href="https://policies.google.com/technologies/cookies?hl=en" class="glue-cookie-notification-bar__more"
+        rel="noopener" aria-describedby="glue-cookie-notification-bar-1-label" target="_blank"
+        aria-label="Learn more about how Google uses cookies. Opens in a new tab.">Learn more</a>.</p><button
+      class="glue-cookie-notification-bar__accept">Agree</button><button class="glue-cookie-notification-bar__reject">No
+      thanks</button>
+  </div>
+
+
+
+
+  <header role="banner" x-data="Header()" class="page-header mobile header-light" x-bind:class="{
+    &#39;hide&#39;: !navOpen &amp;&amp; $store.spy.inHomeHero,
+    &#39;mobile&#39;: isMobile,
+    &#39;mobile-nav-open&#39;: navOpen,
+    &#39;searching&#39;: searchActive,
+    &#39;header-dark&#39;: window.location.href.includes(&#39;games&#39;),
+    &#39;header-light&#39;: window.location.href.indexOf(&#39;games&#39;) === -1,
+  }" x-on:resize.window.debounce.200="onResize">
+    <a class="event-bar" href="https://medium.com/flutter/flutter-3-24-dart-3-5-204b7d20c45d" target="_blank"
+      id="event-bar">
+      Flutter 3.24 and Dart 3.5 are here. Read the blog.&nbsp;<i data-fa-i2svg=""><svg
+          class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true" focusable="false" data-prefix="fas"
+          data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+          <path fill="currentColor"
+            d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+          </path>
+        </svg></i>
+    </a>
+    <div class="content" x-data="{ darkMode: window.location.href.includes(&#39;games&#39;) }">
+      <div>
+        <div class="logo logo-white">
+          <a href="https://flutter.dev/">
+            <img src="./Flutter - Build apps for any screen_files/ec64036b4eacc9f3fd73.svg" alt="Flutter">
+          </a>
+        </div>
+        <div class="logo logo-normal">
+          <a href="https://flutter.dev/">
+            <img src="./Flutter - Build apps for any screen_files/6a07d8a62f4308d2b854.svg" alt="Flutter"
+              x-show="!darkMode">
+            <img src="./Flutter - Build apps for any screen_files/1870bdaf4a9523a10d5b.svg" alt="Flutter"
+              x-show="darkMode" style="display: none;">
+          </a>
+        </div>
+      </div>
+      <div class="tray">
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="https://flutter.dev/multi-platform" class="btn top-level" @click="handleMobileClick($event)">
+                Multi-Platform <i data-fa-i2svg=""><svg class="svg-inline--fa fa-caret-down" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="caret-down" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="dd-connector"></div>
+              <div class="dd">
+                <ul>
+                  <li class="mobile-only">
+                    <a class="btn" href="https://flutter.dev/multi-platform">Overview</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://flutter.dev/multi-platform/mobile">Mobile</a>
+                    <ul>
+                      <li>
+                        <a class="btn subMenu" href="https://flutter.dev/multi-platform/ios">Flutter on iOS</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="btn" href="https://flutter.dev/multi-platform/web">Web</a></li>
+                  <li>
+                    <a class="btn" href="https://flutter.dev/multi-platform/desktop">Desktop</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://flutter.dev/multi-platform/embedded">Embedded</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="https://flutter.dev/development" class="btn top-level" @click="handleMobileClick($event)">
+                Development <i data-fa-i2svg=""><svg class="svg-inline--fa fa-caret-down" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="caret-down" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="dd-connector"></div>
+              <div class="dd">
+                <ul>
+                  <li class="mobile-only">
+                    <a class="btn" href="https://flutter.dev/development">Overview</a>
+                  </li>
+                  <li><a class="btn" href="https://flutter.dev/learn">Learn</a></li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/development/packages-and-plugins/favorites"
+                      target="_blank">Flutter Favorites</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://pub.dev/" target="_blank">Packages</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://flutter.dev/ai">
+                      AI
+                    </a>
+                  </li>
+                  <li><a class="btn" href="https://flutter.dev/google-integrations">Google Integrations</a></li>
+                  <li><a class="btn" href="https://flutter.dev/monetization">Monetization</a></li>
+                  <li><a class="btn" href="https://flutter.dev/games">Games</a></li>
+                  <li><a class="btn" href="https://flutter.dev/news">News</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="https://flutter.dev/ecosystem" class="btn top-level" @click="handleMobileClick($event)">
+                Ecosystem <i data-fa-i2svg=""><svg class="svg-inline--fa fa-caret-down" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="caret-down" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="dd-connector"></div>
+              <div class="dd">
+                <ul>
+                  <li class="mobile-only">
+                    <a class="btn" href="https://flutter.dev/ecosystem">Overview</a>
+                  </li>
+                  <li><a class="btn" href="https://flutter.dev/community">Community</a></li>
+                  <li><a class="btn" href="https://flutter.dev/events">Events</a></li>
+                  <li><a class="btn" href="https://flutter.dev/culture">Culture</a></li>
+                  <li><a class="btn" href="https://flutter.dev/consultants">Consultants</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="https://flutter.dev/showcase" class="btn top-level"> Showcase </a>
+            </li>
+            <li>
+              <a href="https://docs.flutter.dev/" class="btn top-level" @click="handleMobileClick($event)">
+                Docs <i data-fa-i2svg=""><svg class="svg-inline--fa fa-caret-down" aria-hidden="true" focusable="false"
+                    data-prefix="fas" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="dd-connector"></div>
+              <div class="dd dd-double">
+                <ul>
+                  <li class="mobile-only">
+                    <a class="btn" href="https://docs.flutter.dev/">Overview</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/whats-new">What's new</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/get-started/editor">Editor support</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/development/tools/hot-reload">Hot reload</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/perf/ui-performance">Profiling</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/get-started/install">Install Flutter</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/development/tools/devtools/overview">DevTools</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/cookbook">Cookbook</a>
+                  </li>
+                  <li>
+                    <a class="btn" href="https://docs.flutter.dev/reference/tutorials">Tutorials</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="icon-btn search" x-bind:class="{ &#39;active&#39;: searchActive || navOpen }">
+          <i class="search-icon" @click="toggleSearch($event)" x-show="!darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-magnifying-glass" @click="toggleSearch($event)" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+              </path>
+            </svg></i>
+          <i class="search-icon" style="color: rgb(248, 249, 250); display: none;" @click="toggleSearch($event)"
+            x-show="darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-magnifying-glass"
+              style="color: rgb(248, 249, 250); display: none;" @click="toggleSearch($event)" x-show="darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fas" data-icon="magnifying-glass" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z">
+              </path>
+            </svg></i>
+          <form action="https://docs.flutter.dev/search">
+            <input type="search" placeholder="Search..." aria-label="Search" name="q" id="q" autocomplete="off">
+          </form>
+          <i @click="toggleSearch($event)" x-show="searchActive" style="display: none;" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-xmark" @click="toggleSearch($event)" x-show="searchActive" style="display: none;"
+              aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z">
+              </path>
+            </svg></i>
+        </div>
+
+        <a href="https://docs.flutter.dev/get-started/install" id="get-started__header" class="btn">Get started</a>
+
+        <div class="icon-btn hamburger" x-show="!navOpen" @click="toggleMobileNav">
+          <i aria-hidden="true" x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-bars fa-lg"
+              aria-hidden="true" x-show="!darkMode" focusable="false" data-prefix="fas" data-icon="bars" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(248, 249, 250); display: none;" aria-hidden="true" x-show="darkMode"
+            data-fa-i2svg=""><svg class="svg-inline--fa fa-bars fa-lg" style="color: rgb(248, 249, 250); display: none;"
+              aria-hidden="true" x-show="darkMode" focusable="false" data-prefix="fas" data-icon="bars" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+              </path>
+            </svg></i>
+        </div>
+        <div class="icon-btn close" x-show="navOpen" @click="toggleMobileNav" style="display: none;">
+          <i data-fa-i2svg=""><svg class="svg-inline--fa fa-xmark fa-lg" aria-hidden="true" focusable="false"
+              data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+              data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z">
+              </path>
+            </svg></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+
+
+
+
+    <section class="hero" x-data="initSpy(86, hideShowHeaderHome)">
+
+      <div class="container">
+        <h1>Build for any screen</h1>
+        <div class="gallery">
+          <div class="inner-fixed">
+            <div class="col col-outer col-left">
+              <div class="card card-a"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/ab8b95b9e14883037297.png)">
+              </div>
+              <div class="card card-b"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/32c264af3b738a0d5a5e.png)">
+              </div>
+              <div class="card card-c"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/42b50a45c3cfd815e2aa.png)">
+              </div>
+            </div>
+            <div class="col col-center">
+              <div class="card card-a"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/90e34daecca082eb9b28.png)">
+              </div>
+            </div>
+            <div class="col col-outer col-right">
+              <div class="card card-a"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/f3c373924a5075e883cf.png)">
+              </div>
+              <div class="card card-b"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/4e15fea30ba9d8a14208.png)">
+              </div>
+              <div class="card card-c"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/389ff8f9e4d6becae73a.png)">
+              </div>
+              <div class="card card-d"
+                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/b8bd15d096f0557123b1.jpg)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Flutter transforms the development process. Build, test, and deploy beautiful mobile, web, desktop, and
+          embedded experiences from a single codebase.</h2>
+        <a id="get-started__home-hero-bottom" href="https://docs.flutter.dev/get-started/install" class="btn white">Get
+          started</a>
+      </div>
+    </section>
+
+
+    <section class="content-container" x-data="initSpy(headerOffset, toggleContentActive)">
+
+
+
+
+      <section id="notification" class="module">
+        <div class="notification container">
+          <div class="notification-message">
+            <img src="./Flutter - Build apps for any screen_files/a40ceb6e5d342207de7b.png" alt="Notification">
+
+
+
+            <a href="https://medium.com/flutter/flutter-3-24-dart-3-5-204b7d20c45d" target="_blank">
+              Flutter 3.24 and Dart 3.5 are here. Read the blog. &nbsp;<i data-fa-i2svg=""><svg
+                  class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true" focusable="false" data-prefix="fas"
+                  data-icon="arrow-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                  </path>
+                </svg></i>
+            </a>
+
+
+          </div>
+          <div class="notification-nav">
+
+            <span class="active"><a href="https://flutter.dev/#"></a></span>
+
+          </div>
+        </div>
+      </section>
+
+
+      <section id="tabs" class="module" x-data="initSpy(-300)">
+        <div class="tabs container" x-data="Tabs">
+          <div class="tabs-header">
+            <h2>Flutter is an open source framework for building beautiful, natively compiled, multi-platform
+              applications from a single codebase.</h2>
+            <div class="tabs-menu">
+              <ul x-ref="tabs">
+                <li class="btn active" @click="selectTab($event, &#39;a&#39;)">Fast</li>
+                <li class="btn" @click="selectTab($event, &#39;b&#39;)">Productive</li>
+                <li class="btn" @click="selectTab($event, &#39;c&#39;)">Flexible</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tabs-content" x-ref="contents">
+            <div class="tab-content active" x-ref="a">
+              <div class="media">
+                <video muted="" autoplay="" loop=""
+                  src="https://storage.googleapis.com/cms-storage-bucket/029113ae2cbbcf9493fe.mp4" type="video/mp4">
+                  <img src="./Flutter - Build apps for any screen_files/a667e994fc2f3e85de36.png" alt="Fast">
+                </video>
+              </div>
+              <div class="text">
+                <h3 class="text-green">Fast</h3>
+                <p>Flutter code compiles to ARM or Intel machine code as well as JavaScript, for fast performance on any
+                  device.</p>
+                <a class="btn" href="https://dartpad.dev/?id=e66e420f2f0201c772f73819711bf290" target="_blank">Try it in
+                  DartPad</a>
+              </div>
+            </div>
+            <div class="tab-content" x-ref="b">
+              <div class="media">
+                <video muted="" autoplay="" loop=""
+                  src="https://storage.googleapis.com/cms-storage-bucket/31e54d4c95600ffb3a77.mp4" type="video/mp4">
+                  <img src="./Flutter - Build apps for any screen_files/cb99531360d0d596bda6.png" alt="Productive">
+                </video>
+              </div>
+              <div class="text">
+                <h3 class="text-violet">Productive</h3>
+                <p>Build and iterate quickly with Hot Reload. Update code and see changes almost instantly, without
+                  losing state.</p>
+                <a class="btn" href="https://dartpad.dev/?id=bbd3f10c2593f0add04dd770318b33f7" target="_blank">Try it in
+                  DartPad</a>
+              </div>
+            </div>
+            <div class="tab-content" x-ref="c">
+              <div class="media">
+                <video muted="" autoplay="" loop=""
+                  src="https://storage.googleapis.com/cms-storage-bucket/80b7a7ee6bbad2d2d7f8.mp4" type="video/mp4">
+                  <img src="./Flutter - Build apps for any screen_files/8faa27fce97470a6fa42.png" alt="Flexible">
+                </video>
+              </div>
+              <div class="text">
+                <h3 class="text-coral">Flexible</h3>
+                <p>Control every pixel to create customized, adaptive designs that look and feel great on any screen.
+                </p>
+                <a class="btn" href="https://dartpad.dev/?id=1ab1b78a18039bbbd5cfbb4b835b5b8d" target="_blank">Try it in
+                  DartPad</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="featured">
+        <div class="features container">
+          <div class="feature nospy">
+            <div class="text">
+              <hgroup>
+                <h4 class="eyebrow text-blue">Multi-Platform</h4>
+                <h3>Reach users on every screen</h3>
+              </hgroup>
+              <p>Deploy to multiple devices from a single codebase: mobile, web, desktop, and embedded devices.</p>
+              <a class="btn" href="https://flutter.dev/multi-platform">See the target platforms</a>
+            </div>
+            <div class="media">
+              <img alt="Multi-Platform" src="./Flutter - Build apps for any screen_files/ed2e069ee37807f5975a.jpg">
+            </div>
+          </div>
+          <div class="feature reverse nospy">
+            <div class="text">
+              <hgroup>
+                <h4 class="eyebrow text-green">Developer Experience</h4>
+                <h3>Transform your workflow</h3>
+              </hgroup>
+              <p>Take control of your codebase with automated testing, developer tooling, and everything else you need
+                to build production-quality apps.</p>
+              <a class="btn" href="https://flutter.dev/development">Flutter for developers</a>
+            </div>
+            <div class="media">
+              <img alt="Developer Experience"
+                src="./Flutter - Build apps for any screen_files/75c5b74c32dfd7b7e8f3.jpg">
+            </div>
+          </div>
+          <div class="feature nospy">
+            <div class="text">
+              <hgroup>
+                <h4 class="eyebrow text-coral">Stable &amp; Reliable</h4>
+                <h3>Trusted by many</h3>
+              </hgroup>
+              <p>Flutter is supported and used by Google, trusted by well-known brands around the world, and maintained
+                by a community of global developers.</p>
+              <a class="btn" href="https://flutter.dev/ecosystem">Explore the ecosystem</a>
+            </div>
+            <div class="media">
+              <img alt="Ecosystem" src="./Flutter - Build apps for any screen_files/3461c6a5b33c339001c5.jpg">
+            </div>
+          </div>
+          <div class="feature reverse nospy">
+            <div class="text">
+              <hgroup>
+                <h4 class="eyebrow text-violet">Flutter and Google</h4>
+                <h3>Seamless integration with Google services</h3>
+              </hgroup>
+              <p>Connect to Google's app development ecosystem, allowing you to streamline development and reach a wider
+                audience through seamless integration with Firebase, Google Ads, Google Play, Google Pay, Google Wallet,
+                Google Maps, and more.</p>
+              <a class="btn" href="https://flutter.dev/google-integrations">Explore Google integrations</a>
+            </div>
+            <div class="media">
+              <img alt="Seamless Integrations"
+                src="./Flutter - Build apps for any screen_files/9abb63d8732b978c7ea1.png">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <section id="developer-story" class="module">
+        <div class="insert developer-story-insert container">
+          <div class="text">
+            <h4 class="eyebrow">Developer Story</h4>
+            <h3>See how Google Pay uses Flutter to change the world of mobile payments</h3>
+            <a href="https://flutter.dev/showcase/google-pay" class="btn quiet collapsed">Read story
+              &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                  focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                  </path>
+                </svg></i>
+            </a>
+          </div>
+          <div class="media">
+            <img src="./Flutter - Build apps for any screen_files/17b428191082bb916954.png"
+              alt="Google Pay Developer Story">
+          </div>
+        </div>
+      </section>
+
+
+      <section id="community" class="module">
+        <div class="container">
+          <div class="logo-garden">
+            <div class="inner-fixed">
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/026e9dc31ddab22dde07.svg" alt="Abbey Road">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/c1000ff9421405743627.svg" alt="Alibaba">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/65e30624efb7a782550a.svg" alt="BMW"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/f777219d6581e15d8eeb.svg" alt="Byte Dance">
+                </div>
+              </div>
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/def11a7e7d20e91d5ef9.svg" alt="Capitalone">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/8e2858e92284b9d64bc9.svg" alt="Dream11">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/d10d50462c35626a2ed8.svg" alt="Ebay"></div>
+              </div>
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/82de7f0e24cb515bda86.svg" alt="Emaar"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/f3e315ddcd534a574bb5.svg" alt="Grab"></div>
+              </div>
+              <div class="logo-col logo-centerpiece">
+                <div><img src="./Flutter - Build apps for any screen_files/0b591100c77c7f332b7f.svg" alt="Google"></div>
+              </div>
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/0935a9aa643a1a19b3cd.svg" alt="Groupon">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/6769550706195145726c.svg" alt="Toyota"></div>
+              </div>
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/a95814af82f794458f82.svg" alt="MGM"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/b69d05d69cd668df2f8c.svg" alt="Nubank"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/755432d87de85ced1687.svg" alt="NY Times">
+                </div>
+              </div>
+              <div class="logo-col">
+                <div><img src="./Flutter - Build apps for any screen_files/3d2c4bdcf7c2b402aaf8.png" alt="Philips Hue">
+                </div>
+                <div><img src="./Flutter - Build apps for any screen_files/05719422f9c40930b2e6.svg" alt="Sonos"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/b2f75154dc7faecd4e47.svg" alt="Square"></div>
+                <div><img src="./Flutter - Build apps for any screen_files/d67e0d9ef41c618324b3.svg" alt="Tencent">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <hgroup>
+              <h4 class="eyebrow">A Global Open Source Community</h4>
+              <h2>Supported by Google, open to everyone</h2>
+            </hgroup>
+            <p>Collaborate on the open source framework, contribute to the package ecosystem on pub.dev, and find help
+              when you need it.</p>
+            <div>
+              <a class="btn" href="https://flutter.dev/showcase">Learn more</a>
+              <a class="btn quiet" href="https://flutter.dev/community">
+                Join the community &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm"
+                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section id="dart" class="module">
+        <div class="insert dart-insert container">
+          <div class="text">
+            <h4 class="eyebrow">Dart</h4>
+            <h3>Flutter is powered by Dart, a language optimized for fast apps on any platform</h3>
+            <div>
+              <a href="https://dart.dev/" class="btn" target="_blank">Visit dart.dev</a>
+              <a href="https://pub.dev/" class="btn quiet" target="_blank">Get packages
+                &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+            </div>
+          </div>
+          <div class="media">
+            <img src="./Flutter - Build apps for any screen_files/ea027b4b573d9e8acfdc.svg" alt="Powered by Dart">
+          </div>
+        </div>
+      </section>
+
+
+      <section id="news" class="module carousel-section">
+        <div class="container">
+          <h2>Latest news</h2>
+        </div>
+        <div class="carousel" x-data="Carousel" x-on:resize.window.debounce.300="onResize">
+          <div class="carousel-slider" x-ref="slider" x-on:scroll="onScroll">
+
+
+            <div class="carousel-card">
+              <a href="https://medium.com/flutter/flutter-3-24-dart-3-5-204b7d20c45d" target="_blank">
+                <img alt="Flutter324_Still_V2.png" height="357"
+                  src="./Flutter - Build apps for any screen_files/Flutter324_Still_V2.width-635.png" width="635">
+                <h4>Announcing Flutter 3.24 and Dart 3.5</h4>
+              </a><a href="https://medium.com/flutter/flutter-3-24-dart-3-5-204b7d20c45d" target="_blank">
+                Read more &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="carousel-card-bg"></div>
+
+            </div>
+
+            <div class="carousel-card">
+              <a href="https://medium.com/flutter/whats-new-in-flutter-3-24-6c040f87d1e4" target="_blank">
+                <img alt="Flutter_324_Header_v01.png" height="357"
+                  src="./Flutter - Build apps for any screen_files/Flutter_324_Header_v01.width-635.png" width="635">
+                <h4>What’s new in Flutter 3.24</h4>
+              </a><a href="https://medium.com/flutter/whats-new-in-flutter-3-24-6c040f87d1e4" target="_blank">
+                Read more &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="carousel-card-bg"></div>
+
+            </div>
+
+            <div class="carousel-card">
+              <a href="https://medium.com/dartlang/dart-3-5-6ca36259fa2f" target="_blank">
+                <img alt="Dart_3_5_horizontal_v01.png" height="357"
+                  src="./Flutter - Build apps for any screen_files/Dart_3_5_horizontal_v01.width-635.png" width="635">
+                <h4>Announcing Dart 3.5</h4>
+              </a><a href="https://medium.com/dartlang/dart-3-5-6ca36259fa2f" target="_blank">
+                Read more &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="carousel-card-bg"></div>
+
+            </div>
+
+            <div class="carousel-card">
+              <a href="https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11" target="_blank">
+                <img alt="Flutter_gpu.webp" height="474"
+                  src="./Flutter - Build apps for any screen_files/Flutter_gpu.width-635.png" width="635">
+                <h4>Getting started with Flutter GPU</h4>
+              </a><a href="https://medium.com/flutter/getting-started-with-flutter-gpu-f33d497b7c11" target="_blank">
+                Read more &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="carousel-card-bg"></div>
+
+            </div>
+
+            <div class="carousel-card">
+              <a href="https://medium.com/@mit.mit/22debd2bbd22" target="_blank">
+                <img alt="roadmap_image.png" height="341"
+                  src="./Flutter - Build apps for any screen_files/roadmap_image.width-635.png" width="512">
+                <h4>Sharing Flutter’s 2024 roadmap</h4>
+              </a><a href="https://medium.com/@mit.mit/22debd2bbd22" target="_blank">
+                Read more &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm" aria-hidden="true"
+                    focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+              <div class="carousel-card-bg"></div>
+
+            </div>
+
+
+          </div>
+          <div class="carousel-progress container">
+            <div class="carousel-track">
+              <div class="carousel-completed" x-ref="progress" style="width: 0%;"></div>
+            </div>
+            <div class="carousel-nav">
+              <a href="https://flutter.dev/#" class="disabled" x-ref="prevBtn"
+                @click.prevent="navigate($event, &#39;bwd&#39;)">
+                <i data-fa-i2svg=""><svg class="svg-inline--fa fa-circle-left fa-2x" aria-hidden="true"
+                    focusable="false" data-prefix="far" data-icon="circle-left" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M48 256a208 208 0 1 1 416 0A208 208 0 1 1 48 256zm464 0A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM217.4 376.9c4.2 4.5 10.1 7.1 16.3 7.1c12.3 0 22.3-10 22.3-22.3V304h96c17.7 0 32-14.3 32-32V240c0-17.7-14.3-32-32-32H256V150.3c0-12.3-10-22.3-22.3-22.3c-6.2 0-12.1 2.6-16.3 7.1L117.5 242.2c-3.5 3.8-5.5 8.7-5.5 13.8s2 10.1 5.5 13.8l99.9 107.1z">
+                    </path>
+                  </svg></i>
+              </a>
+              <a href="https://flutter.dev/#" class="" x-ref="nextBtn" @click.prevent="navigate($event, &#39;fwd&#39;)">
+                <i data-fa-i2svg=""><svg class="svg-inline--fa fa-circle-right fa-2x" aria-hidden="true"
+                    focusable="false" data-prefix="far" data-icon="circle-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1c-4.2-4.5-10.1-7.1-16.3-7.1C266 128 256 138 256 150.3V208H160c-17.7 0-32 14.3-32 32v32c0 17.7 14.3 32 32 32h96v57.7c0 12.3 10 22.3 22.3 22.3c6.2 0 12.1-2.6 16.3-7.1l99.9-107.1c3.5-3.8 5.5-8.7 5.5-13.8s-2-10.1-5.5-13.8L294.6 135.1z">
+                    </path>
+                  </svg></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="newsletter">
+
+
+
+        <div class="newsletter container">
+          <div class="text">
+            <h2>Join our <br>newsletter</h2>
+          </div>
+          <div class="form">
+            <form x-data="Newsletter" x-on:submit="onSubmit($event)">
+              <fieldset x-show="!submitted">
+                <h3>Keep up with the latest Flutter news, releases, and more:</h3>
+
+                <div class="global-error">
+                  <span class="error" x-show="!!errors[&#39;unknown&#39;]" style="display: none;">
+                    There was an unknown error submitting your data. Please try again.
+                  </span>
+                </div>
+
+                <div class="field-wrapper">
+                  <div class="field" x-bind:class="{ &#39;error&#39;: !!errors[&#39;email&#39;] }">
+                    <i data-fa-i2svg=""><svg class="svg-inline--fa fa-envelope fa-2x" aria-hidden="true"
+                        focusable="false" data-prefix="far" data-icon="envelope" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                          d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z">
+                        </path>
+                      </svg></i>
+                    <label for="email" class="hidden">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address"
+                      x-model="fields.email" x-on:focus="focused = true">
+                  </div>
+                  <span class="error" x-show="!!errors[&#39;email&#39;]" x-text="errors[&#39;email&#39;]"
+                    style="display: none;"></span>
+                </div>
+                <div class="hidden-fields" x-show="focused" x-bind:class="{ &#39;active&#39;: focused }"
+                  style="display: none;">
+
+                  <div class="field-grid">
+                    <div class="field-wrapper">
+                      <div class="field" x-bind:class="{ &#39;error&#39;: !!errors[&#39;first_name&#39;] }">
+                        <label for="firstname" class="hidden">First name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="First name"
+                          x-model="fields.first_name">
+                      </div>
+                      <span class="error" x-show="!!errors[&#39;first_name&#39;]" x-text="errors[&#39;first_name&#39;]"
+                        style="display: none;"></span>
+                    </div>
+                    <div class="field-wrapper">
+                      <div class="field" x-bind:class="{ &#39;error&#39;: !!errors[&#39;last_name&#39;] }">
+                        <label for="lastname" class="hidden">Last name</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Last name"
+                          x-model="fields.last_name">
+                      </div>
+                      <span class="error" x-show="!!errors[&#39;last_name&#39;]" x-text="errors[&#39;last_name&#39;]"
+                        style="display: none;"></span>
+                    </div>
+                  </div>
+
+                  <div class="field-wrapper">
+                    <div class="field" x-bind:class="{ &#39;error&#39;: !!errors[&#39;country&#39;] }">
+                      <label for="country" class="hidden">Country</label>
+                      <select name="countries" id="country" x-model="fields.country">
+                        <option value="" disabled="" selected="">Country</option>
+
+                        <option value="US">United States of America</option>
+
+                        <option value="AF">Afghanistan</option>
+
+                        <option value="AX">Åland Islands</option>
+
+                        <option value="AL">Albania</option>
+
+                        <option value="DZ">Algeria</option>
+
+                        <option value="AS">American Samoa</option>
+
+                        <option value="AD">Andorra</option>
+
+                        <option value="AO">Angola</option>
+
+                        <option value="AI">Anguilla</option>
+
+                        <option value="AQ">Antarctica</option>
+
+                        <option value="AG">Antigua and Barbuda</option>
+
+                        <option value="AR">Argentina</option>
+
+                        <option value="AM">Armenia</option>
+
+                        <option value="AW">Aruba</option>
+
+                        <option value="AU">Australia</option>
+
+                        <option value="AT">Austria</option>
+
+                        <option value="AZ">Azerbaijan</option>
+
+                        <option value="BS">Bahamas</option>
+
+                        <option value="BH">Bahrain</option>
+
+                        <option value="BD">Bangladesh</option>
+
+                        <option value="BB">Barbados</option>
+
+                        <option value="BY">Belarus</option>
+
+                        <option value="BE">Belgium</option>
+
+                        <option value="BZ">Belize</option>
+
+                        <option value="BJ">Benin</option>
+
+                        <option value="BM">Bermuda</option>
+
+                        <option value="BT">Bhutan</option>
+
+                        <option value="BO">Bolivia</option>
+
+                        <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+
+                        <option value="BA">Bosnia and Herzegovina</option>
+
+                        <option value="BW">Botswana</option>
+
+                        <option value="BV">Bouvet Island</option>
+
+                        <option value="BR">Brazil</option>
+
+                        <option value="IO">British Indian Ocean Territory</option>
+
+                        <option value="BN">Brunei</option>
+
+                        <option value="BG">Bulgaria</option>
+
+                        <option value="BF">Burkina Faso</option>
+
+                        <option value="BI">Burundi</option>
+
+                        <option value="CV">Cabo Verde</option>
+
+                        <option value="KH">Cambodia</option>
+
+                        <option value="CM">Cameroon</option>
+
+                        <option value="CA">Canada</option>
+
+                        <option value="KY">Cayman Islands</option>
+
+                        <option value="CF">Central African Republic</option>
+
+                        <option value="TD">Chad</option>
+
+                        <option value="CL">Chile</option>
+
+                        <option value="CN">China</option>
+
+                        <option value="CX">Christmas Island</option>
+
+                        <option value="CC">Cocos (Keeling) Islands</option>
+
+                        <option value="CO">Colombia</option>
+
+                        <option value="KM">Comoros</option>
+
+                        <option value="CG">Congo</option>
+
+                        <option value="CD">Congo (the Democratic Republic of the)</option>
+
+                        <option value="CK">Cook Islands</option>
+
+                        <option value="CR">Costa Rica</option>
+
+                        <option value="CI">Côte d'Ivoire</option>
+
+                        <option value="HR">Croatia</option>
+
+                        <option value="CU">Cuba</option>
+
+                        <option value="CW">Curaçao</option>
+
+                        <option value="CY">Cyprus</option>
+
+                        <option value="CZ">Czechia</option>
+
+                        <option value="DK">Denmark</option>
+
+                        <option value="DJ">Djibouti</option>
+
+                        <option value="DM">Dominica</option>
+
+                        <option value="DO">Dominican Republic</option>
+
+                        <option value="EC">Ecuador</option>
+
+                        <option value="EG">Egypt</option>
+
+                        <option value="SV">El Salvador</option>
+
+                        <option value="GQ">Equatorial Guinea</option>
+
+                        <option value="ER">Eritrea</option>
+
+                        <option value="EE">Estonia</option>
+
+                        <option value="SZ">Eswatini</option>
+
+                        <option value="ET">Ethiopia</option>
+
+                        <option value="FK">Falkland Islands (Malvinas)</option>
+
+                        <option value="FO">Faroe Islands</option>
+
+                        <option value="FJ">Fiji</option>
+
+                        <option value="FI">Finland</option>
+
+                        <option value="FR">France</option>
+
+                        <option value="GF">French Guiana</option>
+
+                        <option value="PF">French Polynesia</option>
+
+                        <option value="TF">French Southern Territories</option>
+
+                        <option value="GA">Gabon</option>
+
+                        <option value="GM">Gambia</option>
+
+                        <option value="GE">Georgia</option>
+
+                        <option value="DE">Germany</option>
+
+                        <option value="GH">Ghana</option>
+
+                        <option value="GI">Gibraltar</option>
+
+                        <option value="GR">Greece</option>
+
+                        <option value="GL">Greenland</option>
+
+                        <option value="GD">Grenada</option>
+
+                        <option value="GP">Guadeloupe</option>
+
+                        <option value="GU">Guam</option>
+
+                        <option value="GT">Guatemala</option>
+
+                        <option value="GG">Guernsey</option>
+
+                        <option value="GN">Guinea</option>
+
+                        <option value="GW">Guinea-Bissau</option>
+
+                        <option value="GY">Guyana</option>
+
+                        <option value="HT">Haiti</option>
+
+                        <option value="HM">Heard Island and McDonald Islands</option>
+
+                        <option value="VA">Holy See</option>
+
+                        <option value="HN">Honduras</option>
+
+                        <option value="HK">Hong Kong</option>
+
+                        <option value="HU">Hungary</option>
+
+                        <option value="IS">Iceland</option>
+
+                        <option value="IN">India</option>
+
+                        <option value="ID">Indonesia</option>
+
+                        <option value="IR">Iran</option>
+
+                        <option value="IQ">Iraq</option>
+
+                        <option value="IE">Ireland</option>
+
+                        <option value="IM">Isle of Man</option>
+
+                        <option value="IL">Israel</option>
+
+                        <option value="IT">Italy</option>
+
+                        <option value="JM">Jamaica</option>
+
+                        <option value="JP">Japan</option>
+
+                        <option value="JE">Jersey</option>
+
+                        <option value="JO">Jordan</option>
+
+                        <option value="KZ">Kazakhstan</option>
+
+                        <option value="KE">Kenya</option>
+
+                        <option value="KI">Kiribati</option>
+
+                        <option value="KW">Kuwait</option>
+
+                        <option value="KG">Kyrgyzstan</option>
+
+                        <option value="LA">Laos</option>
+
+                        <option value="LV">Latvia</option>
+
+                        <option value="LB">Lebanon</option>
+
+                        <option value="LS">Lesotho</option>
+
+                        <option value="LR">Liberia</option>
+
+                        <option value="LY">Libya</option>
+
+                        <option value="LI">Liechtenstein</option>
+
+                        <option value="LT">Lithuania</option>
+
+                        <option value="LU">Luxembourg</option>
+
+                        <option value="MO">Macao</option>
+
+                        <option value="MG">Madagascar</option>
+
+                        <option value="MW">Malawi</option>
+
+                        <option value="MY">Malaysia</option>
+
+                        <option value="MV">Maldives</option>
+
+                        <option value="ML">Mali</option>
+
+                        <option value="MT">Malta</option>
+
+                        <option value="MH">Marshall Islands</option>
+
+                        <option value="MQ">Martinique</option>
+
+                        <option value="MR">Mauritania</option>
+
+                        <option value="MU">Mauritius</option>
+
+                        <option value="YT">Mayotte</option>
+
+                        <option value="MX">Mexico</option>
+
+                        <option value="FM">Micronesia (Federated States of)</option>
+
+                        <option value="MD">Moldova</option>
+
+                        <option value="MC">Monaco</option>
+
+                        <option value="MN">Mongolia</option>
+
+                        <option value="ME">Montenegro</option>
+
+                        <option value="MS">Montserrat</option>
+
+                        <option value="MA">Morocco</option>
+
+                        <option value="MZ">Mozambique</option>
+
+                        <option value="MM">Myanmar</option>
+
+                        <option value="NA">Namibia</option>
+
+                        <option value="NR">Nauru</option>
+
+                        <option value="NP">Nepal</option>
+
+                        <option value="NL">Netherlands</option>
+
+                        <option value="NC">New Caledonia</option>
+
+                        <option value="NZ">New Zealand</option>
+
+                        <option value="NI">Nicaragua</option>
+
+                        <option value="NE">Niger</option>
+
+                        <option value="NG">Nigeria</option>
+
+                        <option value="NU">Niue</option>
+
+                        <option value="NF">Norfolk Island</option>
+
+                        <option value="KP">North Korea</option>
+
+                        <option value="MK">North Macedonia</option>
+
+                        <option value="MP">Northern Mariana Islands</option>
+
+                        <option value="NO">Norway</option>
+
+                        <option value="OM">Oman</option>
+
+                        <option value="PK">Pakistan</option>
+
+                        <option value="PW">Palau</option>
+
+                        <option value="PS">Palestine, State of</option>
+
+                        <option value="PA">Panama</option>
+
+                        <option value="PG">Papua New Guinea</option>
+
+                        <option value="PY">Paraguay</option>
+
+                        <option value="PE">Peru</option>
+
+                        <option value="PH">Philippines</option>
+
+                        <option value="PN">Pitcairn</option>
+
+                        <option value="PL">Poland</option>
+
+                        <option value="PT">Portugal</option>
+
+                        <option value="PR">Puerto Rico</option>
+
+                        <option value="QA">Qatar</option>
+
+                        <option value="RE">Réunion</option>
+
+                        <option value="RO">Romania</option>
+
+                        <option value="RU">Russia</option>
+
+                        <option value="RW">Rwanda</option>
+
+                        <option value="BL">Saint Barthélemy</option>
+
+                        <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+
+                        <option value="KN">Saint Kitts and Nevis</option>
+
+                        <option value="LC">Saint Lucia</option>
+
+                        <option value="MF">Saint Martin (French part)</option>
+
+                        <option value="PM">Saint Pierre and Miquelon</option>
+
+                        <option value="VC">Saint Vincent and the Grenadines</option>
+
+                        <option value="WS">Samoa</option>
+
+                        <option value="SM">San Marino</option>
+
+                        <option value="ST">Sao Tome and Principe</option>
+
+                        <option value="SA">Saudi Arabia</option>
+
+                        <option value="SN">Senegal</option>
+
+                        <option value="RS">Serbia</option>
+
+                        <option value="SC">Seychelles</option>
+
+                        <option value="SL">Sierra Leone</option>
+
+                        <option value="SG">Singapore</option>
+
+                        <option value="SX">Sint Maarten (Dutch part)</option>
+
+                        <option value="SK">Slovakia</option>
+
+                        <option value="SI">Slovenia</option>
+
+                        <option value="SB">Solomon Islands</option>
+
+                        <option value="SO">Somalia</option>
+
+                        <option value="ZA">South Africa</option>
+
+                        <option value="GS">South Georgia and the South Sandwich Islands</option>
+
+                        <option value="KR">South Korea</option>
+
+                        <option value="SS">South Sudan</option>
+
+                        <option value="ES">Spain</option>
+
+                        <option value="LK">Sri Lanka</option>
+
+                        <option value="SD">Sudan</option>
+
+                        <option value="SR">Suriname</option>
+
+                        <option value="SJ">Svalbard and Jan Mayen</option>
+
+                        <option value="SE">Sweden</option>
+
+                        <option value="CH">Switzerland</option>
+
+                        <option value="SY">Syria</option>
+
+                        <option value="TW">Taiwan</option>
+
+                        <option value="TJ">Tajikistan</option>
+
+                        <option value="TZ">Tanzania</option>
+
+                        <option value="TH">Thailand</option>
+
+                        <option value="TL">Timor-Leste</option>
+
+                        <option value="TG">Togo</option>
+
+                        <option value="TK">Tokelau</option>
+
+                        <option value="TO">Tonga</option>
+
+                        <option value="TT">Trinidad and Tobago</option>
+
+                        <option value="TN">Tunisia</option>
+
+                        <option value="TR">Turkey</option>
+
+                        <option value="TM">Turkmenistan</option>
+
+                        <option value="TC">Turks and Caicos Islands</option>
+
+                        <option value="TV">Tuvalu</option>
+
+                        <option value="UG">Uganda</option>
+
+                        <option value="UA">Ukraine</option>
+
+                        <option value="AE">United Arab Emirates</option>
+
+                        <option value="GB">United Kingdom</option>
+
+                        <option value="UM">United States Minor Outlying Islands</option>
+
+                        <option value="US">United States of America</option>
+
+                        <option value="UY">Uruguay</option>
+
+                        <option value="UZ">Uzbekistan</option>
+
+                        <option value="VU">Vanuatu</option>
+
+                        <option value="VE">Venezuela</option>
+
+                        <option value="VN">Vietnam</option>
+
+                        <option value="VG">Virgin Islands (British)</option>
+
+                        <option value="VI">Virgin Islands (U.S.)</option>
+
+                        <option value="WF">Wallis and Futuna</option>
+
+                        <option value="EH">Western Sahara</option>
+
+                        <option value="YE">Yemen</option>
+
+                        <option value="ZM">Zambia</option>
+
+                        <option value="ZW">Zimbabwe</option>
+
+                      </select>
+                    </div>
+                    <span class="error" x-show="!!errors[&#39;country&#39;]" x-text="errors[&#39;country&#39;]"
+                      style="display: none;"></span>
+                  </div>
+
+                  <div class="field-wrapper">
+                    <div class="checkbox opt-in">
+                      <div class="field" x-bind:class="{ &#39;error&#39;: !!errors[&#39;optin&#39;] }">
+                        <input type="checkbox" name="optin" id="optin" x-model="fields.optin">
+                      </div>
+                      <label for="optin" class="optin">
+                        By using this service, you agree to be bound by our <a
+                          href="https://policies.google.com/terms">Google Terms of Service</a>. I
+                        acknowledge that the information provided in this form will be subject to <a
+                          href="https://policies.google.com/privacy">Google's Privacy Policy</a>.
+                      </label>
+                    </div>
+                    <span class="error" x-show="!!errors[&#39;optin&#39;]" x-text="errors[&#39;optin&#39;]"
+                      style="display: none;"></span>
+                  </div>
+                  <div class="captcha-container field-wrapper">
+                    <div class="g-recaptcha" data-sitekey="6LdG504kAAAAAPZGIhZd_--CkTASNKaW64oMriCL"
+                      x-model="fields.captcha" x-bind:class="{ &#39;error&#39;: !!errors[&#39;captcha&#39;] }">
+                      <div style="width: 304px; height: 78px;">
+                        <div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-cw8ihyat711l"
+                            frameborder="0" scrolling="no"
+                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+                            src="./Flutter - Build apps for any screen_files/anchor.html"></iframe></div><textarea
+                          id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                          style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                      </div><iframe style="display: none;"
+                        src="./Flutter - Build apps for any screen_files/saved_resource(1).html"></iframe>
+                    </div>
+                    <span class="error" x-show="!!errors[&#39;captcha&#39;]" x-text="errors[&#39;captcha&#39;]"
+                      style="display: none;"></span>
+                  </div>
+                  <div>
+                    <input type="submit" class="btn primary" value="Subscribe">
+                  </div>
+
+                </div>
+              </fieldset>
+              <div class="success" x-show="submitted" style="display: none;">
+                <h3>You're in!</h3>
+                <p>You have successfully signed up for the latest Flutter updates and announcements.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+
+
+        <script src="./Flutter - Build apps for any screen_files/api.js.ダウンロード"></script>
+
+
+      </section>
+
+
+
+
+      <section id="cta" class="module">
+        <div class="insert cta-insert container">
+          <div class="text">
+            <h3>Get started</h3>
+            <p>Instant access to the power of the Flutter framework</p>
+            <div>
+              <a href="https://docs.flutter.dev/get-started/install" class="btn">
+                Install
+              </a>
+              <a href="https://docs.flutter.dev/" class="btn quiet">
+                Read the docs &nbsp;<i data-fa-i2svg=""><svg class="svg-inline--fa fa-arrow-right fa-sm"
+                    aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" role="img"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                      d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z">
+                    </path>
+                  </svg></i>
+              </a>
+            </div>
+          </div>
+          <div class="media">
+            <img src="./Flutter - Build apps for any screen_files/72521e62275b24d3c37d.png" alt="Powered by Dart">
+          </div>
+        </div>
+      </section>
+
+
+
+    </section>
+
+
+    <!-- <script src="assets/js/rss-parser.min.js"></script> -->
+
+
+  </main>
+
+
+
+  <footer x-data="{ darkMode: window.location.href.includes(&#39;games&#39;) }"
+    :class="window.location.href.includes(&#39;games&#39;) ? &#39;footer-dark&#39; : &#39;footer-light&#39;"
+    class="footer-light">
+    <div class="content footer-main">
+      <div class="logo">
+        <a href="https://flutter.dev/">
+          <img x-show="!darkMode" src="./Flutter - Build apps for any screen_files/6a07d8a62f4308d2b854.svg" width="154"
+            alt="Flutter">
+          <img x-show="darkMode" src="./Flutter - Build apps for any screen_files/1870bdaf4a9523a10d5b.svg" width="154"
+            alt="Flutter" style="display: none;">
+        </a>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li>About Flutter</li>
+          <li>
+            <a href="https://docs.flutter.dev/jobs" target="_blank">Careers</a>
+          </li>
+          <li><a href="https://medium.com/flutter" target="_blank">News</a></li>
+          <li><a href="https://flutter.dev/brand">Brand</a></li>
+          <li><a href="https://flutter.dev/culture">Culture</a></li>
+        </ul>
+        <ul>
+          <li>Learn Flutter</li>
+          <li><a href="https://flutter.dev/learn" target="_blank">Learning Journey</a></li>
+          <li><a href="https://docs.flutter.dev/codelabs" target="_blank">Codelabs</a></li>
+          <li>
+            <a href="https://flutter.github.io/samples" target="_blank">Samples</a>
+          </li>
+          <li><a href="https://docs.flutter.dev/cookbook" target="_blank">Cookbook</a></li>
+        </ul>
+        <ul>
+          <li>Multi-Platform</li>
+          <li><a href="https://flutter.dev/multi-platform/mobile">Mobile</a></li>
+          <li><a href="https://flutter.dev/multi-platform/web">Web</a></li>
+          <li><a href="https://flutter.dev/multi-platform/desktop">Desktop</a></li>
+          <li><a href="https://flutter.dev/multi-platform/embedded">Embedded</a></li>
+          <li><a href="https://flutter.dev/multi-platform/ios">iOS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="content footer-social">
+      <div>
+        <a href="https://www.youtube.com/flutterdev" target="_blank" aria-label="Flutter YouTube">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-youtube fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-youtube fa-lg" style="color: rgb(232, 234, 237); display: none;"
+              x-show="darkMode" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+              </path>
+            </svg></i>
+        </a>
+        <a href="https://twitter.com/flutterdev" target="_blank" aria-label="Flutter Twittter">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-x-twitter fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="x-twitter" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-x-twitter fa-lg" style="color: rgb(232, 234, 237); display: none;"
+              x-show="darkMode" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="x-twitter" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z">
+              </path>
+            </svg></i>
+        </a>
+        <a href="https://github.com/flutter" target="_blank" aria-label="Flutter Github">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-github fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-github fa-lg" style="color: rgb(232, 234, 237); display: none;" x-show="darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+              </path>
+            </svg></i>
+        </a>
+        <a href="https://medium.com/flutter" target="_blank" aria-label="Flutter Medium">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-medium fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="medium" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-medium fa-lg" style="color: rgb(232, 234, 237); display: none;" x-show="darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="medium" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z">
+              </path>
+            </svg></i>
+        </a>
+        <a href="https://www.meetup.com/pro/flutter/" target="_blank" aria-label="Flutter Meetup">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-meetup fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="meetup" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M99 414.3c1.1 5.7-2.3 11.1-8 12.3-5.4 1.1-10.9-2.3-12-8-1.1-5.4 2.3-11.1 7.7-12.3 5.4-1.2 11.1 2.3 12.3 8zm143.1 71.4c-6.3 4.6-8 13.4-3.7 20 4.6 6.6 13.4 8.3 20 3.7 6.3-4.6 8-13.4 3.4-20-4.2-6.5-13.1-8.3-19.7-3.7zm-86-462.3c6.3-1.4 10.3-7.7 8.9-14-1.1-6.6-7.4-10.6-13.7-9.1-6.3 1.4-10.3 7.7-9.1 14 1.4 6.6 7.6 10.6 13.9 9.1zM34.4 226.3c-10-6.9-23.7-4.3-30.6 6-6.9 10-4.3 24 5.7 30.9 10 7.1 23.7 4.6 30.6-5.7 6.9-10.4 4.3-24.1-5.7-31.2zm272-170.9c10.6-6.3 13.7-20 7.7-30.3-6.3-10.6-19.7-14-30-7.7s-13.7 20-7.4 30.6c6 10.3 19.4 13.7 29.7 7.4zm-191.1 58c7.7-5.4 9.4-16 4.3-23.7s-15.7-9.4-23.1-4.3c-7.7 5.4-9.4 16-4.3 23.7 5.1 7.8 15.6 9.5 23.1 4.3zm372.3 156c-7.4 1.7-12.3 9.1-10.6 16.9 1.4 7.4 8.9 12.3 16.3 10.6 7.4-1.4 12.3-8.9 10.6-16.6-1.5-7.4-8.9-12.3-16.3-10.9zm39.7-56.8c-1.1-5.7-6.6-9.1-12-8-5.7 1.1-9.1 6.9-8 12.6 1.1 5.4 6.6 9.1 12.3 8 5.4-1.5 9.1-6.9 7.7-12.6zM447 138.9c-8.6 6-10.6 17.7-4.9 26.3 5.7 8.6 17.4 10.6 26 4.9 8.3-6 10.3-17.7 4.6-26.3-5.7-8.7-17.4-10.9-25.7-4.9zm-6.3 139.4c26.3 43.1 15.1 100-26.3 129.1-17.4 12.3-37.1 17.7-56.9 17.1-12 47.1-69.4 64.6-105.1 32.6-1.1.9-2.6 1.7-3.7 2.9-39.1 27.1-92.3 17.4-119.4-22.3-9.7-14.3-14.6-30.6-15.1-46.9-65.4-10.9-90-94-41.1-139.7-28.3-46.9.6-107.4 53.4-114.9C151.6 70 234.1 38.6 290.1 82c67.4-22.3 136.3 29.4 130.9 101.1 41.1 12.6 52.8 66.9 19.7 95.2zm-70 74.3c-3.1-20.6-40.9-4.6-43.1-27.1-3.1-32 43.7-101.1 40-128-3.4-24-19.4-29.1-33.4-29.4-13.4-.3-16.9 2-21.4 4.6-2.9 1.7-6.6 4.9-11.7-.3-6.3-6-11.1-11.7-19.4-12.9-12.3-2-17.7 2-26.6 9.7-3.4 2.9-12 12.9-20 9.1-3.4-1.7-15.4-7.7-24-11.4-16.3-7.1-40 4.6-48.6 20-12.9 22.9-38 113.1-41.7 125.1-8.6 26.6 10.9 48.6 36.9 47.1 11.1-.6 18.3-4.6 25.4-17.4 4-7.4 41.7-107.7 44.6-112.6 2-3.4 8.9-8 14.6-5.1 5.7 3.1 6.9 9.4 6 15.1-1.1 9.7-28 70.9-28.9 77.7-3.4 22.9 26.9 26.6 38.6 4 3.7-7.1 45.7-92.6 49.4-98.3 4.3-6.3 7.4-8.3 11.7-8 3.1 0 8.3.9 7.1 10.9-1.4 9.4-35.1 72.3-38.9 87.7-4.6 20.6 6.6 41.4 24.9 50.6 11.4 5.7 62.5 15.7 58.5-11.1zm5.7 92.3c-10.3 7.4-12.9 22-5.7 32.6 7.1 10.6 21.4 13.1 32 6 10.6-7.4 13.1-22 6-32.6-7.4-10.6-21.7-13.5-32.3-6z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-meetup fa-lg" style="color: rgb(232, 234, 237); display: none;" x-show="darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="meetup" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M99 414.3c1.1 5.7-2.3 11.1-8 12.3-5.4 1.1-10.9-2.3-12-8-1.1-5.4 2.3-11.1 7.7-12.3 5.4-1.2 11.1 2.3 12.3 8zm143.1 71.4c-6.3 4.6-8 13.4-3.7 20 4.6 6.6 13.4 8.3 20 3.7 6.3-4.6 8-13.4 3.4-20-4.2-6.5-13.1-8.3-19.7-3.7zm-86-462.3c6.3-1.4 10.3-7.7 8.9-14-1.1-6.6-7.4-10.6-13.7-9.1-6.3 1.4-10.3 7.7-9.1 14 1.4 6.6 7.6 10.6 13.9 9.1zM34.4 226.3c-10-6.9-23.7-4.3-30.6 6-6.9 10-4.3 24 5.7 30.9 10 7.1 23.7 4.6 30.6-5.7 6.9-10.4 4.3-24.1-5.7-31.2zm272-170.9c10.6-6.3 13.7-20 7.7-30.3-6.3-10.6-19.7-14-30-7.7s-13.7 20-7.4 30.6c6 10.3 19.4 13.7 29.7 7.4zm-191.1 58c7.7-5.4 9.4-16 4.3-23.7s-15.7-9.4-23.1-4.3c-7.7 5.4-9.4 16-4.3 23.7 5.1 7.8 15.6 9.5 23.1 4.3zm372.3 156c-7.4 1.7-12.3 9.1-10.6 16.9 1.4 7.4 8.9 12.3 16.3 10.6 7.4-1.4 12.3-8.9 10.6-16.6-1.5-7.4-8.9-12.3-16.3-10.9zm39.7-56.8c-1.1-5.7-6.6-9.1-12-8-5.7 1.1-9.1 6.9-8 12.6 1.1 5.4 6.6 9.1 12.3 8 5.4-1.5 9.1-6.9 7.7-12.6zM447 138.9c-8.6 6-10.6 17.7-4.9 26.3 5.7 8.6 17.4 10.6 26 4.9 8.3-6 10.3-17.7 4.6-26.3-5.7-8.7-17.4-10.9-25.7-4.9zm-6.3 139.4c26.3 43.1 15.1 100-26.3 129.1-17.4 12.3-37.1 17.7-56.9 17.1-12 47.1-69.4 64.6-105.1 32.6-1.1.9-2.6 1.7-3.7 2.9-39.1 27.1-92.3 17.4-119.4-22.3-9.7-14.3-14.6-30.6-15.1-46.9-65.4-10.9-90-94-41.1-139.7-28.3-46.9.6-107.4 53.4-114.9C151.6 70 234.1 38.6 290.1 82c67.4-22.3 136.3 29.4 130.9 101.1 41.1 12.6 52.8 66.9 19.7 95.2zm-70 74.3c-3.1-20.6-40.9-4.6-43.1-27.1-3.1-32 43.7-101.1 40-128-3.4-24-19.4-29.1-33.4-29.4-13.4-.3-16.9 2-21.4 4.6-2.9 1.7-6.6 4.9-11.7-.3-6.3-6-11.1-11.7-19.4-12.9-12.3-2-17.7 2-26.6 9.7-3.4 2.9-12 12.9-20 9.1-3.4-1.7-15.4-7.7-24-11.4-16.3-7.1-40 4.6-48.6 20-12.9 22.9-38 113.1-41.7 125.1-8.6 26.6 10.9 48.6 36.9 47.1 11.1-.6 18.3-4.6 25.4-17.4 4-7.4 41.7-107.7 44.6-112.6 2-3.4 8.9-8 14.6-5.1 5.7 3.1 6.9 9.4 6 15.1-1.1 9.7-28 70.9-28.9 77.7-3.4 22.9 26.9 26.6 38.6 4 3.7-7.1 45.7-92.6 49.4-98.3 4.3-6.3 7.4-8.3 11.7-8 3.1 0 8.3.9 7.1 10.9-1.4 9.4-35.1 72.3-38.9 87.7-4.6 20.6 6.6 41.4 24.9 50.6 11.4 5.7 62.5 15.7 58.5-11.1zm5.7 92.3c-10.3 7.4-12.9 22-5.7 32.6 7.1 10.6 21.4 13.1 32 6 10.6-7.4 13.1-22 6-32.6-7.4-10.6-21.7-13.5-32.3-6z">
+              </path>
+            </svg></i>
+        </a>
+        <a href="https://www.linkedin.com/showcase/flutterdevofficial/" target="_blank" aria-label="Flutter LinkedIn">
+          <i x-show="!darkMode" data-fa-i2svg=""><svg class="svg-inline--fa fa-linkedin fa-lg" x-show="!darkMode"
+              aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+              </path>
+            </svg></i>
+          <i style="color: rgb(232, 234, 237); display: none;" x-show="darkMode" data-fa-i2svg=""><svg
+              class="svg-inline--fa fa-linkedin fa-lg" style="color: rgb(232, 234, 237); display: none;"
+              x-show="darkMode" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+              </path>
+            </svg></i>
+        </a>
+      </div>
+    </div>
+    <div class="content footer-tray">
+      <div>
+        Except as otherwise noted, this work is licensed under a Creative Commons
+        Attribution 4.0 International License, and code samples are licensed under
+        the BSD License.
+      </div>
+      <div>
+        <ul>
+          <li><a href="https://docs.flutter.dev/tos">Terms</a></li>
+          <li>
+            <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy</a>
+          </li>
+          <li><a href="https://docs.flutter.dev/security">Security</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./Flutter - Build apps for any screen_files/cookienotificationbar.min.js.ダウンロード"
+    data-glue-cookie-notification-bar-category="2A" data-glue-cookie-notification-bar-site-id="flutter.dev"></script>
+
+
+  <section class="cookie-snack" x-data="Snack"
+    x-bind:class="{ &#39;show&#39;: !agreed &amp;&amp; window.location.href.includes(&#39;consultants&#39;) }">
+    <div class="container">
+      <p>NOTICE: Flutter hopes this directory is useful for customers seeking consultants with Flutter experience;
+        however, Flutter makes no representation to you or anyone else that the listed consultants are Flutter or Google
+        partners, and Flutter does not represent or warrant their qualifications or the quality of services you may
+        receive. Your relationship is strictly between you and the consultants.</p>
+      <button @click.prevent="dismiss" class="solid">Okay</button>
+    </div>
+  </section>
+
+
+
+  <script src="./Flutter - Build apps for any screen_files/main.4555b87dc4125b80109c.js.ダウンロード"></script>
+
+
+
+
+  <div
+    style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility linear 0.3s, opacity 0.3s linear; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;">
+    <div
+      style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;">
+    </div>
+    <div class="g-recaptcha-bubble-arrow"
+      style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;">
+    </div>
+    <div class="g-recaptcha-bubble-arrow"
+      style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;">
+    </div>
+    <div style="z-index: 2000000000; position: relative;"><iframe title="reCAPTCHA による確認は 2 分間有効です"
+        name="c-cw8ihyat711l" frameborder="0" scrolling="no"
+        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation"
+        src="./Flutter - Build apps for any screen_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div>
+  </div>
+</body>
+
+</html>

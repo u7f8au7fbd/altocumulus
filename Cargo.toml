@@ -1,0 +1,21 @@
+[package]
+name = "altocumulus"
+version = "0.0.0"
+authors = ["u7f8au7fbd <u7f8au7fbd@outlook.com>"]
+edition = "2021"
+
+[dependencies]
+lindera = { version = "0.35.x", features = ["ipadic"] }
+indexmap="*"
+scraper = "0.20.0"
+select = "0.6.0"
+toml = "0.8.19"
+[profile.dev]
+opt-level = 1
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 3
+[profile.release.package."*"]
+opt-level = 3

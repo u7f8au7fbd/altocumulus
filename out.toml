@@ -1,0 +1,955 @@
+[html]
+lang = "ja"
+
+[html.body.footer.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center f3"
+
+[[html.body.footer.div.div]]
+class = "flex flex-column flex-row-ns pv0-l"
+
+[[html.body.footer.div.div.div]]
+class = "flex flex-column mw8 w-100 measure-wide-l pv2 pv5-m pv2-ns ph4-m ph4-l"
+id = "get-help"
+
+[html.body.footer.div.div.div.div]
+class = "languages"
+
+[html.body.footer.div.div.div.div.div]
+class = "select"
+
+[html.body.footer.div.div.div.div.div.label]
+class = "hidden"
+for = "language-footer"
+text = "言語"
+
+[html.body.footer.div.div.div.div.div.select]
+id = "language-footer"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "English (en-US)"
+title = "English (en-US)"
+value = "en-US"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Español (es)"
+title = "Español (es)"
+value = "es"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Français (fr)"
+title = "Français (fr)"
+value = "fr"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Italiano (it)"
+title = "Italiano (it)"
+value = "it"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "日本語 (ja)"
+title = "日本語 (ja)"
+value = "ja"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Português (pt-BR)"
+title = "Português (pt-BR)"
+value = "pt-BR"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Русский (ru)"
+title = "Русский (ru)"
+value = "ru"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "Türkçe (tr)"
+title = "Türkçe (tr)"
+value = "tr"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "简体中文 (zh-CN)"
+title = "简体中文 (zh-CN)"
+value = "zh-CN"
+
+[[html.body.footer.div.div.div.div.div.select.option]]
+text = "正體中文 (zh-TW)"
+title = "正體中文 (zh-TW)"
+value = "zh-TW"
+
+[html.body.footer.div.div.div.h4]
+text = "ヘルプ"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://www.rust-lang.org/ja/learn"
+text = "ドキュメント"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "http://forge.rust-lang.org/"
+text = "Rust Forge （コントリビュータ向けドキュメント）"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://users.rust-lang.org/"
+text = "ユーザーフォーラムで質問する"
+
+[[html.body.footer.div.div.div]]
+class = "flex flex-column mw8 w-100 measure-wide-l pv2 pv5-m pv2-ns ph4-m ph4-l"
+
+[html.body.footer.div.div.div.h4]
+text = "規約とポリシー"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://www.rust-lang.org/ja/policies/code-of-conduct"
+text = "行動規範"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://www.rust-lang.org/ja/policies/licenses"
+text = "ライセンス"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://foundation.rust-lang.org/policies/logo-policy-and-media-guide/"
+text = "ロゴポリシーおよびメディアガイド"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://www.rust-lang.org/ja/policies/security"
+text = "セキュリティ開示"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://foundation.rust-lang.org/policies/privacy-policy/"
+text = "プライバシー通知"
+
+[[html.body.footer.div.div.div.ul.li]]
+
+[html.body.footer.div.div.div.ul.li.a]
+href = "https://www.rust-lang.org/ja/policies"
+text = "全てのポリシー"
+
+[[html.body.footer.div.div.div]]
+class = "flex flex-column mw8 w-100 measure-wide-l pv2 pv5-m pv2-ns ph4-m ph4-l"
+
+[html.body.footer.div.div.div.div]
+class = "flex flex-row flex-wrap items-center"
+
+[[html.body.footer.div.div.div.div.a]]
+href = "https://social.rust-lang.org/@rust"
+rel = "me"
+target = "_blank"
+
+[html.body.footer.div.div.div.div.a.img]
+alt = "Mastodon"
+src = "./Rustプログラミング言語_files/mastodon.svg"
+title = "Mastodon"
+
+[[html.body.footer.div.div.div.div.a]]
+href = "https://twitter.com/rustlang"
+target = "_blank"
+
+[html.body.footer.div.div.div.div.a.img]
+alt = "twitter logo"
+src = "./Rustプログラミング言語_files/twitter.svg"
+title = "Twitter"
+
+[[html.body.footer.div.div.div.div.a]]
+href = "https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA"
+target = "_blank"
+
+[html.body.footer.div.div.div.div.a.img]
+alt = "youtubeのロゴ"
+class = "pv2"
+src = "./Rustプログラミング言語_files/youtube.svg"
+title = "YouTube"
+
+[[html.body.footer.div.div.div.div.a]]
+href = "https://discord.gg/rust-lang"
+target = "_blank"
+
+[html.body.footer.div.div.div.div.a.img]
+alt = "discord logo"
+src = "./Rustプログラミング言語_files/discord.svg"
+title = "Discord"
+
+[[html.body.footer.div.div.div.div.a]]
+href = "https://github.com/rust-lang"
+target = "_blank"
+
+[html.body.footer.div.div.div.div.a.img]
+alt = "github logo"
+src = "./Rustプログラミング言語_files/github.svg"
+title = "GitHub"
+
+[html.body.footer.div.div.div.h4]
+text = "ソーシャルメディア"
+
+[[html.body.footer.div.div]]
+class = "attribution"
+
+[[html.body.footer.div.div.p]]
+
+[html.body.footer.div.div.p.a]
+href = "https://github.com/rust-lang/www.rust-lang.org/issues/new/choose"
+text = "修正を送ってください！"
+
+[[html.body.footer.div.div.p]]
+
+[html.body.footer.div.div.p.a]
+href = "https://prev.rust-lang.org/"
+text = "以前のウェブサイト"
+
+[[html.body.main.section]]
+class = "green"
+id = "language-values"
+
+[html.body.main.section.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center f3"
+
+[html.body.main.section.div.div]
+class = "flex-none flex-l"
+
+[[html.body.main.section.div.div.section]]
+class = "w-100 pv2 pv0-l mt4"
+
+[html.body.main.section.div.div.section.h3]
+class = "f2 f1-l"
+text = "パフォーマンス"
+
+[html.body.main.section.div.div.section.p]
+class = "f3 lh-copy"
+text = "Rustは非常に高速でメモリ効率が高くランタイムやガベージコレクタがないため、パフォーマンス重視のサービスを実装できますし、組込み機器上で実行したり他の言語との調和も簡単にできます。"
+
+[[html.body.main.section.div.div.section]]
+class = "w-100 pv2 pv0-l mt4 mh5-l"
+
+[html.body.main.section.div.div.section.h3]
+class = "f2 f1-l"
+text = "信頼性"
+
+[html.body.main.section.div.div.section.p]
+class = "f3 lh-copy"
+text = "Rustの豊かな型システムと所有権モデルによりメモリ安全性とスレッド安全性が保証されます。さらに様々な種類のバグをコンパイル時に排除することが可能です。"
+
+[[html.body.main.section.div.div.section]]
+class = "w-100 pv2 pv0-l mt4"
+
+[html.body.main.section.div.div.section.h3]
+class = "f2 f1-l"
+text = "生産性"
+
+[html.body.main.section.div.div.section.p]
+class = "f3 lh-copy"
+text = "Rustには優れたドキュメント、有用なエラーメッセージを備えた使いやすいコンパイラ、および統合されたパッケージマネージャとビルドツール、多数のエディタに対応するスマートな自動補完と型検査機能、自動フォーマッタといった一流のツール群が数多く揃っています。"
+
+[html.body.main.section.div.header]
+class = "pb0"
+
+[html.body.main.section.div.header.div]
+class = "highlight"
+
+[html.body.main.section.div.header.h2]
+text = "なぜRustか？"
+
+[[html.body.main.section]]
+class = "purple"
+
+[html.body.main.section.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center f3"
+
+[[html.body.main.section.div.div]]
+class = "flex-none flex-l flex-row"
+
+[html.body.main.section.div.div.p]
+class = "flex-grow-1 pb2"
+
+[html.body.main.section.div.div.p.a]
+href = "https://blog.rust-lang.org/2018/03/12/roadmap.html"
+text = "2018年のロードマップ"
+
+[[html.body.main.section.div.div]]
+class = "flex-none flex-l flex-row"
+
+[[html.body.main.section.div.div.div]]
+class = "flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top tc-l"
+
+[html.body.main.section.div.div.div.div.img]
+alt = "ターミナル"
+class = "mw3 mw4-ns"
+src = "./Rustプログラミング言語_files/cli.svg"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l"
+
+[html.body.main.section.div.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/ja/what/cli"
+text = "ツールを作る"
+
+[html.body.main.section.div.div.div.div.h3]
+class = "tc-l"
+text = "コマンドライン"
+
+[html.body.main.section.div.div.div.div.p]
+class = "flex-grow-1"
+text = "Rustの強力なエコシステムならCLIツールを素早く作れます。Rustはアプリのメンテナンスを信頼できるものにし、その配布も簡単です。"
+
+[[html.body.main.section.div.div.div]]
+class = "flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top tc-l"
+
+[html.body.main.section.div.div.div.div.img]
+alt = "パズルのピースのような歯車"
+class = "mw3 mw4-ns"
+src = "./Rustプログラミング言語_files/webassembly.svg"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l"
+
+[html.body.main.section.div.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/ja/what/wasm"
+text = "webアプリケーションを書く"
+
+[html.body.main.section.div.div.div.div.h3]
+class = "tc-l"
+text = "WebAssembly"
+
+[html.body.main.section.div.div.div.div.p]
+class = "flex-grow-1"
+text = "Rustを使ってJavaScriptをモジュール単位で高速化しましょう。npmに公開しwebpackでバンドルすればすぐに使えます。"
+
+[[html.body.main.section.div.div.div]]
+class = "flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top tc-l"
+
+[html.body.main.section.div.div.div.div.img]
+alt = "複数のノードを持つクラウド"
+class = "mw3 mw4-ns"
+src = "./Rustプログラミング言語_files/networking.svg"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l"
+
+[html.body.main.section.div.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/ja/what/networking"
+text = "サーバーを動かす"
+
+[html.body.main.section.div.div.div.div.h3]
+class = "tc-l"
+text = "ネットワーク"
+
+[html.body.main.section.div.div.div.div.p]
+class = "flex-grow-1"
+text = "予測可能なパフォーマンス。極小のリソースフットプリント。堅固な信頼性。Rustはネットワークサービスにぴったりです。"
+
+[[html.body.main.section.div.div.div]]
+class = "flex flex-row flex-column-l justify-between-l mw8 measure-wide-l w-100 mt5 mt2-l pl4-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top tc-l"
+
+[html.body.main.section.div.div.div.div.img]
+alt = "組込み機器チップ"
+class = "mw3 mw4-ns"
+src = "./Rustプログラミング言語_files/embedded.svg"
+
+[[html.body.main.section.div.div.div.div]]
+class = "v-top pl4 pl0-l pt0 pt3-l measure-wide-l flex-l flex-column-l flex-auto-l justify-between-l"
+
+[html.body.main.section.div.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/ja/what/embedded"
+text = "組込から始める"
+
+[html.body.main.section.div.div.div.div.h3]
+class = "tc-l"
+text = "組込み"
+
+[html.body.main.section.div.div.div.div.p]
+class = "flex-grow-1"
+text = """
+低リソースのデバイスがターゲットですか？
+                高レベルの利便性を損なわずに低レベルの制御をしたいですか？
+                Rustにお任せください。"""
+
+[html.body.main.section.div.header.div]
+class = "highlight"
+
+[html.body.main.section.div.header.h2]
+text = "Rustでつくろう"
+
+[[html.body.main.section]]
+class = "white production"
+
+[html.body.main.section.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center"
+
+[[html.body.main.section.div.div]]
+class = "description"
+
+[html.body.main.section.div.div.p]
+class = "lh-copy f2"
+
+[[html.body.main.section.div.div.p.a]]
+href = "https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/"
+text = "Firefox"
+
+[[html.body.main.section.div.div.p.a]]
+href = "https://blogs.dropbox.com/tech/2016/06/lossless-compression-with-brotli/"
+text = "Dropbox"
+
+[[html.body.main.section.div.div.p.a]]
+href = "https://blog.cloudflare.com/cloudflare-workers-as-a-serverless-rust-platform/"
+text = "Cloudflare"
+
+[html.body.main.section.div.div.p.strong]
+text = "スタートアップから大企業、組込み機器からスケーラブルなWebサービスに至るまで、Rustはぴったりです。"
+
+[[html.body.main.section.div.div]]
+class = "testimonials"
+
+[[html.body.main.section.div.div.div]]
+class = "testimonial flex-none flex-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "w-100 w-70-l"
+id = "npm-testimonial"
+
+[html.body.main.section.div.div.div.div.blockquote]
+class = "lh-title-ns"
+text = "私のRustに対する最大の賛辞は退屈だということで、これはすばらしい褒め言葉なんです。"
+
+[html.body.main.section.div.div.div.div.p]
+class = "attribution"
+text = "– Chris Dickinson, Engineer at npm, Inc"
+
+[[html.body.main.section.div.div.div.div]]
+class = "w-100 w-30-l tc"
+
+[html.body.main.section.div.div.div.div.a]
+href = "https://www.npmjs.com/"
+
+[html.body.main.section.div.div.div.div.a.img]
+alt = "npmロゴ"
+class = "w-33 w-60-ns h-auto"
+src = "./Rustプログラミング言語_files/npm.svg"
+
+[[html.body.main.section.div.div.div]]
+class = "testimonial flex-none flex-l"
+
+[[html.body.main.section.div.div.div.div]]
+class = "w-100 w-30-l tc"
+
+[html.body.main.section.div.div.div.div.a]
+href = "https://www.youtube.com/watch?v=u6ZbF4apABk"
+
+[html.body.main.section.div.div.div.div.a.img]
+alt = "Yelpロゴ"
+class = "w-80"
+src = "./Rustプログラミング言語_files/yelp.png"
+
+[[html.body.main.section.div.div.div.div]]
+class = "w-100 w-70-l"
+id = "yelp-testimonial"
+
+[html.body.main.section.div.div.div.div.blockquote]
+text = "ドキュメンテーション、ツール群、コミュニティそのすべてが秀逸です。Rustコードを書く上で必要な道具はすべて揃っています。"
+
+[html.body.main.section.div.div.div.div.p]
+class = "attribution"
+text = "– Antonio Verardi, Infrastructure Engineer"
+
+[html.body.main.section.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/ja/production"
+text = "もっと読む"
+
+[html.body.main.section.div.header.div]
+class = "highlight"
+
+[html.body.main.section.div.header.h2]
+text = "Rustの活用事例"
+
+[[html.body.main.section]]
+class = "get-involved red"
+
+[html.body.main.section.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center f3"
+
+[[html.body.main.section.div.div]]
+class = "flex flex-column flex-row-l"
+
+[[html.body.main.section.div.div.div]]
+class = "mw-50-l mr4-l pt0 flex flex-column justify-between-l"
+id = "read-rust"
+
+[html.body.main.section.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.rust-lang.org/learn"
+text = "ドキュメントを読む"
+
+[html.body.main.section.div.div.div.h3]
+text = "Rustを読む"
+
+[html.body.main.section.div.div.div.p]
+class = "flex-grow-1"
+text = "私たちはドキュメントを愛しています！ オンライン上に公開している書籍、さらにブログ記事やユーザーガイドを見てみてください。"
+
+[[html.body.main.section.div.div.div]]
+class = "mw-50-l pt3 pt0-l flex flex-column justify-between-l"
+id = "watch-rust"
+
+[html.body.main.section.div.div.div.a]
+class = "button button-secondary"
+href = "https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA"
+text = "動画を観る"
+
+[html.body.main.section.div.div.div.h3]
+text = "Rustを観る"
+
+[html.body.main.section.div.div.div.p]
+class = "flex-grow-1"
+text = "Rustコミュニティには専用のYouTubeチャンネルがあり、そこには多くのプレゼンテーションやチュートリアルが投稿されています。"
+
+[[html.body.main.section.div.div]]
+class = "pt3"
+
+[html.body.main.section.div.div.a]
+class = "button button-secondary"
+href = "https://rustc-dev-guide.rust-lang.org/getting-started.html"
+text = "コントリビューションガイドを読む"
+
+[html.body.main.section.div.div.h3]
+text = "コードに貢献する"
+
+[html.body.main.section.div.div.p]
+text = "Rustは真にコミュニティ活動の賜物であり、日曜プログラマからプロダクションユーザまで、初心者から経験豊富なプロフェッショナルまで参加を歓迎します。共にRustでの体験をさらに良いものにしましょう！"
+
+[html.body.main.section.div.header.div]
+class = "highlight"
+
+[html.body.main.section.div.header.h2]
+text = "参加しよう"
+
+[[html.body.main.section]]
+class = "white thanks"
+
+[html.body.main.section.div]
+class = "w-100 mw-none ph3 mw8-m mw9-l center"
+
+[[html.body.main.section.div.div]]
+class = "description"
+
+[html.body.main.section.div.div.p]
+class = "lh-copy f2"
+text = "個人や企業からの時間や作業、リソースの寛大な寄付なしではRustは存在していないでしょう。支援に大変感謝します！"
+
+[[html.body.main.section.div.div]]
+class = "flex flex-column flex-row-l"
+
+[[html.body.main.section.div.div.div]]
+class = "mw-50-l mr4-l pt0 flex flex-column justify-between-l"
+id = "individual-code"
+
+[html.body.main.section.div.div.div.a]
+class = "button button-secondary"
+href = "https://thanks.rust-lang.org/"
+text = "コントリビュータを見る"
+
+[html.body.main.section.div.div.div.h3]
+text = "個人"
+
+[html.body.main.section.div.div.div.p]
+class = "flex-grow-1"
+text = "Rustはコミュニティプロジェクトであり、多くのコミュニティの貢献にとても感謝しています。"
+
+[[html.body.main.section.div.div.div]]
+class = "mw-50-l pt3 pt0-l flex flex-column justify-between-l"
+id = "company-sponsorships"
+
+[html.body.main.section.div.div.div.a]
+class = "button button-secondary"
+href = "https://foundation.rust-lang.org/members"
+text = "スポンサーを見る"
+
+[html.body.main.section.div.div.div.h3]
+text = "企業スポンサー"
+
+[html.body.main.section.div.div.div.p]
+class = "flex-grow-1"
+text = "Rustプロジェクトは、インフラの寄付を通じて企業からサポートを受けています。"
+
+[html.body.main.section.div.header.div]
+class = "highlight"
+
+[html.body.main.section.div.header.h2]
+text = "謝辞"
+
+[html.body.main.header]
+class = "mt3 mb6 w-100 mw-none ph3 mw8-m mw9-l center"
+
+[html.body.main.header.div]
+class = "flex flex-column flex-row-l"
+
+[[html.body.main.header.div.div]]
+class = "w-70-l mw8-l"
+
+[html.body.main.header.div.div.h1]
+text = "Rust"
+
+[html.body.main.header.div.div.h2]
+class = "mt4 mb0 f2 f1-ns"
+
+[html.body.main.header.div.div.h2.br]
+class = "dn db-ns"
+
+[[html.body.main.header.div.div]]
+class = "w-30-l flex-column pl0-l pr0-l pl3 pr3"
+
+[html.body.main.header.div.div.a]
+class = "button button-download ph4 mt0 w-100"
+href = "https://www.rust-lang.org/ja/learn/get-started"
+text = "はじめる"
+
+[html.body.main.header.div.div.p]
+class = "tc f3 f2-l mt3"
+
+[html.body.main.header.div.div.p.a]
+class = "download-link"
+href = "https://blog.rust-lang.org/2024/10/17/Rust-1.82.0.html"
+text = "バージョン 1.82.0"
+
+[html.body.nav]
+class = "flex flex-row justify-center justify-end-l items-center flex-wrap ph2 pl3-ns pr3-ns pb3"
+
+[[html.body.nav.div]]
+class = "brand flex-auto w-100 w-auto-l self-start tc tl-l"
+
+[html.body.nav.div.a]
+class = "brand"
+href = "https://www.rust-lang.org/ja/"
+
+[html.body.nav.div.a.img]
+alt = "Rustのロゴ"
+class = "v-mid ml0-l"
+src = "./Rustプログラミング言語_files/rust-logo-blk.svg"
+
+[[html.body.nav.div]]
+class = " w-100 w-auto-l flex-none flex justify-center pv4 pv-0-l languages"
+
+[html.body.nav.div.div]
+class = "select"
+
+[html.body.nav.div.div.label]
+class = "hidden"
+for = "language-nav"
+text = "言語"
+
+[html.body.nav.div.div.select]
+data-current-lang = "ja"
+id = "language-nav"
+
+[[html.body.nav.div.div.select.option]]
+text = "English (en-US)"
+title = "English (en-US)"
+value = "en-US"
+
+[[html.body.nav.div.div.select.option]]
+text = "Español (es)"
+title = "Español (es)"
+value = "es"
+
+[[html.body.nav.div.div.select.option]]
+text = "Français (fr)"
+title = "Français (fr)"
+value = "fr"
+
+[[html.body.nav.div.div.select.option]]
+text = "Italiano (it)"
+title = "Italiano (it)"
+value = "it"
+
+[[html.body.nav.div.div.select.option]]
+text = "日本語 (ja)"
+title = "日本語 (ja)"
+value = "ja"
+
+[[html.body.nav.div.div.select.option]]
+text = "Português (pt-BR)"
+title = "Português (pt-BR)"
+value = "pt-BR"
+
+[[html.body.nav.div.div.select.option]]
+text = "Русский (ru)"
+title = "Русский (ru)"
+value = "ru"
+
+[[html.body.nav.div.div.select.option]]
+text = "Türkçe (tr)"
+title = "Türkçe (tr)"
+value = "tr"
+
+[[html.body.nav.div.div.select.option]]
+text = "简体中文 (zh-CN)"
+title = "简体中文 (zh-CN)"
+value = "zh-CN"
+
+[[html.body.nav.div.div.select.option]]
+text = "正體中文 (zh-TW)"
+title = "正體中文 (zh-TW)"
+value = "zh-TW"
+
+[html.body.nav.ul]
+class = "nav list w-100 w-auto-l flex flex-none flex-row flex-wrap justify-center justify-end-l items-center pv2 ph0 ph4-ns"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://www.rust-lang.org/ja/tools/install"
+text = "インストール"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://www.rust-lang.org/ja/learn"
+text = "学ぶ"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://play.rust-lang.org/"
+text = "Playground"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://www.rust-lang.org/ja/tools"
+text = "ツール"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://www.rust-lang.org/ja/governance"
+text = "ガバナンス"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://www.rust-lang.org/ja/community"
+text = "コミュニティ"
+
+[[html.body.nav.ul.li]]
+class = "tc pv2 ph2 ph4-ns flex-20-s"
+
+[html.body.nav.ul.li.a]
+href = "https://blog.rust-lang.org/"
+text = "ブログ"
+
+[html.body.script]
+src = "./Rustプログラミング言語_files/languages.js.ダウンロード"
+
+[[html.head.link]]
+href = "./Rustプログラミング言語_files/a11y-dark.css"
+rel = "stylesheet"
+
+[[html.head.link]]
+href = "./Rustプログラミング言語_files/vendor_10880690442070639967.css"
+rel = "stylesheet"
+
+[[html.head.link]]
+href = "./Rustプログラミング言語_files/fonts_8049871103083011125.css"
+rel = "stylesheet"
+
+[[html.head.link]]
+href = "./Rustプログラミング言語_files/app_13159054214309460861.css"
+rel = "stylesheet"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/static/images/apple-touch-icon.png?v=ngJW8jGAmR"
+rel = "apple-touch-icon"
+sizes = "180x180"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/static/images/favicon-16x16.png"
+rel = "icon"
+sizes = "16x16"
+type = "image/png"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/static/images/favicon-32x32.png"
+rel = "icon"
+sizes = "32x32"
+type = "image/png"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/static/images/favicon.svg"
+rel = "icon"
+type = "image/svg+xml"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/static/images/site.webmanifest?v=ngJW8jGAmR"
+rel = "manifest"
+
+[[html.head.link]]
+color = "#000000"
+href = "https://www.rust-lang.org/static/images/safari-pinned-tab.svg?v=ngJW8jGAmR"
+rel = "mask-icon"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/en-US"
+hreflang = "en-US"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/es"
+hreflang = "es"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/fr"
+hreflang = "fr"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/it"
+hreflang = "it"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/ja"
+hreflang = "ja"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/pt-BR"
+hreflang = "pt-BR"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/ru"
+hreflang = "ru"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/tr"
+hreflang = "tr"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/zh-CN"
+hreflang = "zh-CN"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/zh-TW"
+hreflang = "zh-TW"
+rel = "alternate"
+
+[[html.head.link]]
+href = "https://www.rust-lang.org/"
+hreflang = "x-default"
+rel = "alternate"
+
+[[html.head.meta]]
+content = "text/html; charset=UTF-8"
+http-equiv = "Content-Type"
+
+[[html.head.meta]]
+content = "width=device-width,initial-scale=1.0"
+name = "viewport"
+
+[[html.head.meta]]
+content = "効率的で信頼性のあるソフトウェアを書く力を与える言語"
+name = "description"
+
+[[html.head.meta]]
+content = "summary"
+name = "twitter:card"
+
+[[html.head.meta]]
+content = "@rustlang"
+name = "twitter:site"
+
+[[html.head.meta]]
+content = "@rustlang"
+name = "twitter:creator"
+
+[[html.head.meta]]
+content = ""
+name = "twitter:title"
+
+[[html.head.meta]]
+content = "効率的で信頼性のあるソフトウェアを書く力を与える言語"
+name = "twitter:description"
+
+[[html.head.meta]]
+content = "https://www.rust-lang.org/static/images/rust-social.jpg"
+name = "twitter:image"
+
+[[html.head.meta]]
+content = ""
+property = "og:title"
+
+[[html.head.meta]]
+content = "効率的で信頼性のあるソフトウェアを書く力を与える言語"
+property = "og:description"
+
+[[html.head.meta]]
+content = "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+property = "og:image"
+
+[[html.head.meta]]
+content = "website"
+property = "og:type"
+
+[[html.head.meta]]
+content = "en_US"
+property = "og:locale"
+
+[[html.head.meta]]
+content = "#ffffff"
+name = "msapplication-TileColor"
+
+[[html.head.meta]]
+content = "/static/images/browserconfig.xml?v=ngJW8jGAmR"
+name = "msapplication-config"
+
+[[html.head.meta]]
+content = "#ffffff"
+name = "theme-color"
+
+[[html.head.script]]
+defer = ""
+src = "./Rustプログラミング言語_files/highlight.pack.js.ダウンロード"
+
+[[html.head.script]]
+defer = ""
+src = "./Rustプログラミング言語_files/init.js.ダウンロード"
+
+[html.head.title]
+text = "Rustプログラミング言語"
